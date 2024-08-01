@@ -1494,5 +1494,6 @@ shape = SubResource("RectangleShape2D_1bekp")
 [node name="Pilz" parent="Goals" instance=ExtResource("4_67vq1")]
 position = Vector2(-147, 79)
 
-[node name="Player2" parent="." instance=ExtResource("5_omcq1")]
+[node name="Tutor" parent="." node_paths=PackedStringArray("target") instance=ExtResource("5_omcq1")]
 position = Vector2(-76, 80)
+target = NodePath("../Goals/Box")
