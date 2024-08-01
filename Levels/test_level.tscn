@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://dmmkegp00cl18"]
+[gd_scene load_steps=9 format=3 uid="uid://dmmkegp00cl18"]
 
 [ext_resource type="Texture2D" uid="uid://cnb6vef35n3ad" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="1_eqpw1"]
 [ext_resource type="Texture2D" uid="uid://cqrqnlx2jpsop" path="res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="1_uo41u"]
 [ext_resource type="PackedScene" uid="uid://xxaoff7gwbrm" path="res://Character/player.tscn" id="2_t7emj"]
+[ext_resource type="PackedScene" uid="uid://2ipwf08dwd0m" path="res://Scenes/goal_object.tscn" id="4_67vq1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x01cw"]
 texture = ExtResource("1_eqpw1")
@@ -1484,3 +1485,10 @@ shape = SubResource("RectangleShape2D_7equ2")
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Map Limit"]
 position = Vector2(837, -13.5)
 shape = SubResource("RectangleShape2D_1bekp")
+
+[node name="Goals" type="Node2D" parent="."]
+
+[node name="Box" parent="Goals" instance=ExtResource("4_67vq1")]
+
+[node name="Pilz" parent="Goals" instance=ExtResource("4_67vq1")]
+position = Vector2(-147, 79)
