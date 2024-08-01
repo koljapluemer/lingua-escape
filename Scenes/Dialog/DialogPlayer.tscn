@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmlxe0o01bmhl"]
+
+[ext_resource type="Script" path="res://Scenes/Dialog/DialogPlayer.gd" id="1_tl5oa"]
+[ext_resource type="Texture2D" uid="uid://tv0j3j0vx702" path="res://Art/Rabbit/rabbit_avatar.png" id="2_w221v"]
+
+[node name="DialogPlayer" type="CanvasLayer"]
+script = ExtResource("1_tl5oa")
+
+[node name="Background" type="ColorRect" parent="."]
+unique_name_in_owner = true
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 32.0
+grow_horizontal = 2
+color = Color(0.219608, 0.219608, 0.219608, 1)
+
+[node name="Box" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="Box"]
+layout_mode = 2
+size_flags_horizontal = 2
+texture = ExtResource("2_w221v")
+expand_mode = 3
+stretch_mode = 2
+
+[node name="TextLabel" type="Label" parent="Box"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.952941, 0.952941, 0.952941, 1)
+theme_override_font_sizes/font_size = 12
+autowrap_mode = 2

@@ -1,6 +1,3 @@
 res://Levels/test_level.tscn
-res://Scenes/goal_object.tscn
-res://Scenes/tutor.gd
-res://Scenes/tutor.tscn
-res://Character/player.tscn
-res://Character/player.gd
+res://Scenes/Dialog/DialogPlayer.tscn
+res://Scenes/Dialog/DialogPlayer.gd
