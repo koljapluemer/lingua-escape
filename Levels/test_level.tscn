@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://dmmkegp00cl18"]
+[gd_scene load_steps=8 format=3 uid="uid://dmmkegp00cl18"]
 
 [ext_resource type="Texture2D" uid="uid://cnb6vef35n3ad" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="1_eqpw1"]
 [ext_resource type="Texture2D" uid="uid://cqrqnlx2jpsop" path="res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png" id="1_uo41u"]
@@ -1423,6 +1423,12 @@ texture = ExtResource("1_eqpw1")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_x01cw")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7equ2"]
+size = Vector2(32, 205)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1bekp"]
+size = Vector2(32, 205)
+
 [node name="TestLevel" type="Node2D"]
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -1450,15 +1456,31 @@ layer_3/y_sort_enabled = true
 layer_3/tile_data = PackedInt32Array(327670, 1179648, 15, 393206, 1179648, 16, 327671, 1245184, 15, 393207, 1245184, 16, 262149, 1179648, 17, 327685, 1179648, 18, 262150, 1245184, 17, 327686, 1245184, 18, 327693, 1179648, 22, 327692, 1179648, 22)
 
 [node name="Player" parent="." instance=ExtResource("2_t7emj")]
-position = Vector2(-64, 49)
+position = Vector2(-8, 49)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
 remote_path = NodePath("../../Camera2D")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(-64, 49)
+position = Vector2(-8, 49)
 zoom = Vector2(0.7, 0.7)
 process_callback = 0
+limit_left = -420
+limit_top = -400
+limit_right = 535
+limit_bottom = 400
 position_smoothing_enabled = true
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
+editor_draw_limits = true
+
+[node name="Map Limit" type="StaticBody2D" parent="."]
+position = Vector2(-354, 10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(13, -13.5)
+shape = SubResource("RectangleShape2D_7equ2")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(837, -13.5)
+shape = SubResource("RectangleShape2D_1bekp")
