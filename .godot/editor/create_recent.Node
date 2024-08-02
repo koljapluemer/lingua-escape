@@ -1,10 +1,10 @@
-AudioStreamPlayer2D
 Label
+CanvasLayer
+AudioStreamPlayer2D
 Button
 OptionButton
 VBoxContainer
 CenterContainer
-CanvasLayer
 Area2D
 HBoxContainer
 TextureRect
@@ -12,4 +12,3 @@ ColorRect
 Timer
 CollisionShape2D
 Node2D
-StaticBody2D
