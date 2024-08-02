@@ -1,3 +1,7 @@
+dist/
+dist
+dist.zip
+
 # Godot-specific ignores
 .import/
 export.cfg
