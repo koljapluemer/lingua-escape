@@ -12,10 +12,18 @@ func _ready():
 	box.visible = false
 
 func show_text(text, kill_after=5):
+	kill_all_timer_children()
 	text_label.text = text
 	background.visible = true
 	box.visible = true
-	create_kill_timer(kill_after)
+	# 0 kill_after means infinite
+	if not kill_after == 0:
+		create_kill_timer(kill_after)
+
+func kill_all_timer_children():
+	for child in get_children():
+		if child is Timer:
+			child.queue_free()
 
 
 func finish():

@@ -7,3 +7,4 @@ res://Scenes/goal_object.gd
 res://Scenes/goal_object.tscn
 res://Character/player.tscn
 res://Character/player.gd
+res://Scenes/tutor.gd

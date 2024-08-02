@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+signal target_reached
+
 @export var speed : float = 100.0
 @export var jump_velocity : float = -150.0
 @export var double_jump_velocity : float = -100
@@ -34,6 +36,7 @@ func _physics_process(delta):
 			target = null
 			velocity = Vector2.ZERO
 			animated_sprite.play("idle")
+			target_reached.emit()
 
 func set_target(tar):
 	target = tar

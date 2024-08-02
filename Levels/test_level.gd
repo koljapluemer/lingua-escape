@@ -5,33 +5,92 @@ extends Node2D
 @onready var goals: Node2D = %Goals
 @onready var player: CharacterBody2D = %Player
 
+var missions = [
+	{
+		"goal": "box",
+		"give_demo": true
+	},
+	{
+		"goal": "shroom",
+		"give_demo": true
+	},
+	{
+		"goal": "box",
+		"give_demo": true
+	},
+	{
+		"goal": "shroom",
+		"give_demo": false
+	},
+	{
+		"goal": "bottles",
+		"give_demo": true
+	},
+	{
+		"goal": "box",
+		"give_demo": false
+	},
+	{
+		"goal": "shroom",
+		"give_demo": false
+	},
+	{
+		"goal": "bottles",
+		"give_demo": false
+	},
+]
+
+var current_mission_index = 0
+var current_goal_object = null
+var task_started = false
+var demo_started = false
+var target_hot = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	player.connect("player_reached", _on_player_reached_potential_goal)
+	tutor.connect("target_reached", _on_tutor_reached_target)
 	create_event_timer(3, e_initial_greeting)
-	create_event_timer(10, e_demo_box)
-	create_event_timer(18, e_task_box)
+	create_event_timer(10, start_current_mission)
 	
 
+func start_current_mission():
+	target_hot = false
+	var goal_string = missions[current_mission_index]["goal"]
+	for goal in goals.get_children():
+		if goal.id == goal_string:
+			current_goal_object = goal
+			break
+	if missions[current_mission_index]["give_demo"]:
+		start_mission_demo()
+	else:
+		start_mission_task()
+	 
+	
+func start_mission_demo():
+	var demo_text = "Ich gehe " + current_goal_object.sentence_block
+	dialog_player.show_text(demo_text, 8)
+	create_event_timer(2, send_tutor_to_target)
+	demo_started = true
+	
+func send_tutor_to_target():
+	tutor.set_target(current_goal_object)
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-
+func start_mission_task():
+	var mission_text = "Geh " + current_goal_object.sentence_block + "!"
+	dialog_player.show_text(mission_text, 0)
+	task_started = true
+	target_hot = true
+	
 
 func e_initial_greeting() -> void:
 	dialog_player.show_text("Hallo!")
+		
+func give_praise_and_start_next():
+	dialog_player.show_text("Super!", 3)
+	current_mission_index += 1
+	create_event_timer(4, start_current_mission)
 	
-func e_demo_box():
-	dialog_player.show_text("Ich gehe zur Box.", 8)
-	create_event_timer(2, set_box_as_target)
-	
-	
-func e_task_box():
-	dialog_player.show_text("Geh zur Box!")
-	
-func set_box_as_target():
-	tutor.set_target(box)
 	
 func create_event_timer(n, function_to_call):
 	var timer := Timer.new()
@@ -42,4 +101,10 @@ func create_event_timer(n, function_to_call):
 	timer.start()
 
 func _on_player_reached_potential_goal(goal):
-	print("player reached", goal)
+	if goal.id == current_goal_object.id and target_hot:
+		target_hot = false
+		give_praise_and_start_next()
+
+func _on_tutor_reached_target():
+	demo_started = false
+	create_event_timer(3, start_mission_task)

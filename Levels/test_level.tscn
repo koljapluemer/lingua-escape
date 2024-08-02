@@ -1500,8 +1500,13 @@ sentence_block = "zur Box"
 
 [node name="pilz" parent="Goals" instance=ExtResource("4_67vq1")]
 position = Vector2(-147, 79)
-id = "pilz"
+id = "shroom"
 sentence_block = "zum Pilz"
+
+[node name="bottles" parent="Goals" instance=ExtResource("4_67vq1")]
+position = Vector2(205, 79)
+id = "bottles"
+sentence_block = "zu den Flaschen"
 
 [node name="Tutor" parent="." instance=ExtResource("5_omcq1")]
 unique_name_in_owner = true
