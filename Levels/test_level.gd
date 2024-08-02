@@ -5,6 +5,8 @@ extends Node2D
 @onready var goals: Node2D = %Goals
 @onready var player: CharacterBody2D = %Player
 @onready var ui: CanvasLayer = %UI
+@onready var audio_player: AudioStreamPlayer2D = %AudioPlayer
+
 
 var missions = [
 	{
@@ -71,6 +73,9 @@ func start_current_mission():
 	
 func start_mission_demo():
 	var demo_text = "Ich gehe " + current_goal_object.sentence_block
+	audio_player.stream = load("res://Art/Audio/" + missions[current_mission_index]["goal"] + "_demo.mp3")
+	audio_player.play()
+	
 	dialog_player.show_text(demo_text, 8)
 	create_event_timer(2, send_tutor_to_target)
 	demo_started = true
@@ -80,6 +85,8 @@ func send_tutor_to_target():
 
 func start_mission_task():
 	var mission_text = "Geh " + current_goal_object.sentence_block + "!"
+	audio_player.stream = load("res://Art/Audio/" + missions[current_mission_index]["goal"] + "_task.mp3")
+	audio_player.play()
 	dialog_player.show_text(mission_text, 0)
 	task_started = true
 	target_hot = true

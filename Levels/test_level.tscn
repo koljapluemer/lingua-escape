@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dmmkegp00cl18"]
+[gd_scene load_steps=13 format=3 uid="uid://dmmkegp00cl18"]
 
 [ext_resource type="Texture2D" uid="uid://cnb6vef35n3ad" path="res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png" id="1_eqpw1"]
 [ext_resource type="Script" path="res://Levels/test_level.gd" id="1_lcqvk"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://2ipwf08dwd0m" path="res://Scenes/goal_object.tscn" id="4_67vq1"]
 [ext_resource type="PackedScene" uid="uid://k1v48sxv7w50" path="res://Scenes/tutor.tscn" id="5_omcq1"]
 [ext_resource type="PackedScene" uid="uid://dmlxe0o01bmhl" path="res://Scenes/Dialog/DialogPlayer.tscn" id="6_e4kvw"]
+[ext_resource type="AudioStream" uid="uid://bclj70vjolgrr" path="res://Art/Audio/bottles_demo.mp3" id="8_01bym"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x01cw"]
 texture = ExtResource("1_eqpw1")
@@ -1524,3 +1525,7 @@ offset_right = 40.0
 offset_bottom = 23.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "You win!"
+
+[node name="AudioPlayer" type="AudioStreamPlayer2D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("8_01bym")
