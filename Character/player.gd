@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+signal player_reached
+
 @export var speed : float = 200.0
 @export var jump_velocity : float = -150.0
 @export var double_jump_velocity : float = -100
@@ -85,4 +87,6 @@ func _on_animated_sprite_2d_animation_finished():
 		animation_locked = false
 		
 
-
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area.is_in_group("goal"):
+		player_reached.emit(area)

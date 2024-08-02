@@ -1,3 +1,9 @@
 res://Levels/test_level.tscn
 res://Scenes/Dialog/DialogPlayer.tscn
+res://Scenes/tutor.tscn
 res://Scenes/Dialog/DialogPlayer.gd
+res://Levels/test_level.gd
+res://Scenes/goal_object.gd
+res://Scenes/goal_object.tscn
+res://Character/player.tscn
+res://Character/player.gd

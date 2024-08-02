@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722533629
+::res://::1722603600
 icon.svg::CompressedTexture2D::1701750855830309230::1722524507::1722529340::1::::<><>::
 LICENSE.md::TextFile::-1::1722527205::0::1::::<><>::
 README.md::TextFile::-1::1722532839::0::1::::<><>::
@@ -72,7 +72,7 @@ Golden-Tree.png::CompressedTexture2D::6878549809411101730::1722529471::172252947
 Green-Tree.png::CompressedTexture2D::725885093742723659::1722529471::1722529471::1::::<><>::
 Red-Tree.png::CompressedTexture2D::1209529535376390761::1722529471::1722529471::1::::<><>::
 Yellow-Tree.png::CompressedTexture2D::1752902837429214101::1722529471::1722529471::1::::<><>::
-::res://Art/Rabbit/::1722534096
+::res://Art/Rabbit/::1722534098
 rabbit.png::CompressedTexture2D::8749297745045671121::1722529471::1722529471::1::::<><>::
 rabbit_avatar.png::CompressedTexture2D::1378475444644110549::1722534096::1722534098::1::::<><>::
 ::res://Character/::1722533485
@@ -87,13 +87,13 @@ TESTING.md::TextFile::-1::1722527212::0::1::::<><>::
 ::res://doc/notes/::1722527205
 Lingua Escape.md::TextFile::-1::1722527212::0::1::::<><>::
 portfolio.json::JSON::-1::1722527205::0::1::::<><>::
-::res://Levels/::1722533954
-test_level.gd::GDScript::-1::1722533521::0::1::::<>Node2D<>::
-test_level.tscn::PackedScene::8026915360369246657::1722533954::0::1::::<><>::uid://cnb6vef35n3ad::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>res://Levels/test_level.gd<>uid://cqrqnlx2jpsop::::res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://2ipwf08dwd0m::::res://Scenes/goal_object.tscn<>uid://k1v48sxv7w50::::res://Scenes/tutor.tscn<>uid://dmlxe0o01bmhl::::res://Scenes/Dialog/DialogPlayer.tscn
-::res://Scenes/::1722532893
+::res://Levels/::1722535110
+test_level.gd::GDScript::-1::1722535108::0::1::::<>Node2D<>::
+test_level.tscn::PackedScene::8026915360369246657::1722535110::0::1::::<><>::uid://cnb6vef35n3ad::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>res://Levels/test_level.gd<>uid://cqrqnlx2jpsop::::res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://2ipwf08dwd0m::::res://Scenes/goal_object.tscn<>uid://k1v48sxv7w50::::res://Scenes/tutor.tscn<>uid://dmlxe0o01bmhl::::res://Scenes/Dialog/DialogPlayer.tscn
+::res://Scenes/::1722534919
 goal_object.tscn::PackedScene::1912564145357865386::1722529471::0::1::::<><>::
-tutor.gd::GDScript::-1::1722529471::0::1::::<>CharacterBody2D<>::
+tutor.gd::GDScript::-1::1722534919::0::1::::<>CharacterBody2D<>::
 tutor.tscn::PackedScene::756890865008611997::1722529471::0::1::::<><>::res://Scenes/tutor.gd<>uid://dwwhwj3vew8nd::::res://Art/Rabbit/rabbit.png
-::res://Scenes/Dialog/::1722533955
-DialogPlayer.gd::GDScript::-1::1722533661::0::1::::<>CanvasLayer<>::
-DialogPlayer.tscn::PackedScene::8025641299921296753::1722533955::0::1::::<><>::res://Scenes/Dialog/DialogPlayer.gd
+::res://Scenes/Dialog/::1722535162
+DialogPlayer.gd::GDScript::-1::1722535162::0::1::::<>CanvasLayer<>::
+DialogPlayer.tscn::PackedScene::8025641299921296753::1722535162::0::1::::<><>::res://Scenes/Dialog/DialogPlayer.gd<>uid://tv0j3j0vx702::::res://Art/Rabbit/rabbit_avatar.png

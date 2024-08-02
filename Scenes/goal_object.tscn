@@ -1,10 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://2ipwf08dwd0m"]
+[gd_scene load_steps=3 format=3 uid="uid://2ipwf08dwd0m"]
+
+[ext_resource type="Script" path="res://Scenes/goal_object.gd" id="1_fghn8"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ce652"]
 radius = 22.0907
 
-[node name="Object" type="Area2D"]
+[node name="Object" type="Area2D" groups=["goal"]]
 position = Vector2(96, 85)
+script = ExtResource("1_fghn8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_ce652")

@@ -1461,6 +1461,7 @@ layer_3/y_sort_enabled = true
 layer_3/tile_data = PackedInt32Array(327670, 1179648, 15, 393206, 1179648, 16, 327671, 1245184, 15, 393207, 1245184, 16, 262149, 1179648, 17, 327685, 1179648, 18, 262150, 1245184, 17, 327686, 1245184, 18, 327693, 1179648, 22, 327692, 1179648, 22)
 
 [node name="Player" parent="." instance=ExtResource("2_t7emj")]
+unique_name_in_owner = true
 position = Vector2(-8, 49)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
@@ -1491,22 +1492,20 @@ position = Vector2(837, -13.5)
 shape = SubResource("RectangleShape2D_1bekp")
 
 [node name="Goals" type="Node2D" parent="."]
+unique_name_in_owner = true
 
-[node name="Box" parent="Goals" instance=ExtResource("4_67vq1")]
+[node name="box" parent="Goals" instance=ExtResource("4_67vq1")]
+id = "box"
+sentence_block = "zur Box"
 
-[node name="Pilz" parent="Goals" instance=ExtResource("4_67vq1")]
+[node name="pilz" parent="Goals" instance=ExtResource("4_67vq1")]
 position = Vector2(-147, 79)
+id = "pilz"
+sentence_block = "zum Pilz"
 
-[node name="Tutor" parent="." node_paths=PackedStringArray("target") instance=ExtResource("5_omcq1")]
+[node name="Tutor" parent="." instance=ExtResource("5_omcq1")]
+unique_name_in_owner = true
 position = Vector2(-76, 80)
-target = NodePath("../Goals/Box")
 
 [node name="DialogPlayer" parent="." instance=ExtResource("6_e4kvw")]
 unique_name_in_owner = true
-
-[node name="InitialDialogTimer" type="Timer" parent="."]
-wait_time = 4.0
-one_shot = true
-autostart = true
-
-[connection signal="timeout" from="InitialDialogTimer" to="." method="_on_initial_dialog_timer_timeout"]

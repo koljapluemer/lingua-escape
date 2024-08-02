@@ -11,7 +11,7 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var direction : Vector2 = Vector2.ZERO
 
 
-@export var target: Node2D
+var target: Node2D
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -35,6 +35,8 @@ func _physics_process(delta):
 			velocity = Vector2.ZERO
 			animated_sprite.play("idle")
 
+func set_target(tar):
+	target = tar
 	
 func update_animation():
 	if direction.x != 0:
