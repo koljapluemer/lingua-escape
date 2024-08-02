@@ -4,6 +4,7 @@ extends Node2D
 @onready var box: Area2D = $Goals/Box
 @onready var goals: Node2D = %Goals
 @onready var player: CharacterBody2D = %Player
+@onready var ui: CanvasLayer = %UI
 
 var missions = [
 	{
@@ -48,6 +49,7 @@ var target_hot = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	ui.visible = false
 	player.connect("player_reached", _on_player_reached_potential_goal)
 	tutor.connect("target_reached", _on_tutor_reached_target)
 	create_event_timer(3, e_initial_greeting)
@@ -89,6 +91,11 @@ func e_initial_greeting() -> void:
 func give_praise_and_start_next():
 	dialog_player.show_text("Super!", 3)
 	current_mission_index += 1
+	# if we have completed all missions, show ui and pause game
+	if current_mission_index >= len(missions):
+		ui.visible = true
+		get_tree().paused = true
+		return
 	create_event_timer(4, start_current_mission)
 	
 	

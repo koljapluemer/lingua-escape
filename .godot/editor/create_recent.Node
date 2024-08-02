@@ -1,10 +1,10 @@
+Label
 CanvasLayer
 Area2D
 HBoxContainer
 TextureRect
 ColorRect
 Timer
-Label
 CollisionShape2D
 Node2D
 StaticBody2D
