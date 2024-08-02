@@ -8,3 +8,5 @@ res://Scenes/goal_object.tscn
 res://Character/player.tscn
 res://Character/player.gd
 res://Scenes/tutor.gd
+res://Levels/start_menu.tscn
+res://Levels/start_menu.gd

@@ -108,9 +108,10 @@ func create_event_timer(n, function_to_call):
 	timer.start()
 
 func _on_player_reached_potential_goal(goal):
-	if goal.id == current_goal_object.id and target_hot:
-		target_hot = false
-		give_praise_and_start_next()
+	if target_hot:
+		if goal.id == current_goal_object.id:
+			target_hot = false
+			give_praise_and_start_next()
 
 func _on_tutor_reached_target():
 	demo_started = false

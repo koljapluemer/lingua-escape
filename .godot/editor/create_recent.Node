@@ -1,4 +1,8 @@
 Label
+Button
+OptionButton
+VBoxContainer
+CenterContainer
 CanvasLayer
 Area2D
 HBoxContainer
@@ -8,7 +12,3 @@ Timer
 CollisionShape2D
 Node2D
 StaticBody2D
-Control
-AnimationPlayer
-AnimationTree
-AnimatedSprite2D
