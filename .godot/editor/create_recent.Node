@@ -1,3 +1,6 @@
+TextureRect
+Sprite2D
+Node2D
 Label
 CanvasLayer
 AudioStreamPlayer2D
@@ -7,8 +10,5 @@ VBoxContainer
 CenterContainer
 Area2D
 HBoxContainer
-TextureRect
 ColorRect
 Timer
-CollisionShape2D
-Node2D

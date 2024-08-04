@@ -1,0 +1,135 @@
+[gd_scene load_steps=14 format=3 uid="uid://c7w45ew46dvmh"]
+
+[ext_resource type="Texture2D" uid="uid://cdielg42jcmlf" path="res://Art/levels/plants/greenhouse.jpg" id="1_8ra4c"]
+[ext_resource type="PackedScene" uid="uid://xxaoff7gwbrm" path="res://Character/player.tscn" id="2_q6fby"]
+[ext_resource type="Texture2D" uid="uid://caxq886xvv7xg" path="res://Art/levels/plants/pot_cactus.png" id="3_e0ifr"]
+[ext_resource type="Texture2D" uid="uid://b6xbmqa48goce" path="res://Art/levels/plants/pot_bush.png" id="4_f78jt"]
+[ext_resource type="Texture2D" uid="uid://bhrhyel7dueoe" path="res://Art/levels/plants/pot_flower.png" id="5_nfevk"]
+[ext_resource type="Texture2D" uid="uid://d1vkjf56o7xk0" path="res://Art/levels/plants/pot_plant.png" id="6_bdxi7"]
+[ext_resource type="Texture2D" uid="uid://oa2js7f2bofm" path="res://Art/levels/plants/pot_tree.png" id="7_nve8v"]
+[ext_resource type="Texture2D" uid="uid://besswnaa35tuv" path="res://Art/levels/plants/concrete_test.jpg" id="8_po1vb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5e002"]
+size = Vector2(32, 205)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_auxis"]
+size = Vector2(32, 205)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qffgt"]
+size = Vector2(803, 42.5)
+
+[sub_resource type="Shader" id="Shader_7ldre"]
+code = "shader_type canvas_item;
+
+uniform vec4 line_color : source_color = vec4(1.0);
+uniform float line_thickness : hint_range(0, 10) = 1.0;
+
+const vec2 OFFSETS[8] = {
+	vec2(-1, -1), vec2(-1, 0), vec2(-1, 1), vec2(0, -1), vec2(0, 1), 
+	vec2(1, -1), vec2(1, 0), vec2(1, 1)
+};
+
+void fragment() {
+	vec2 size = TEXTURE_PIXEL_SIZE * line_thickness;
+	float outline = 0.0;
+	
+	for (int i = 0; i < OFFSETS.length(); i++) {
+		outline += texture(TEXTURE, UV + size * OFFSETS[i]).a;
+	}
+	outline = min(outline, 1.0);
+	
+	vec4 color = texture(TEXTURE, UV);
+	COLOR = mix(color, line_color, outline - color.a);
+}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jdkaj"]
+shader = SubResource("Shader_7ldre")
+shader_parameter/line_color = Color(0.929412, 0.929412, 0.929412, 1)
+shader_parameter/line_thickness = 10.0
+
+[node name="Level02" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(40, -21)
+scale = Vector2(0.0615451, 0.0615451)
+texture = ExtResource("1_8ra4c")
+
+[node name="Player" parent="." instance=ExtResource("2_q6fby")]
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
+remote_path = NodePath("../../Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, -1)
+offset = Vector2(0, -70)
+zoom = Vector2(0.7, 0.7)
+process_callback = 0
+limit_left = -420
+limit_top = -400
+limit_right = 535
+limit_bottom = 400
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+editor_draw_limits = true
+
+[node name="Map Limit" type="StaticBody2D" parent="."]
+position = Vector2(-354, 10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(13, -13.5)
+shape = SubResource("RectangleShape2D_5e002")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(837, -13.5)
+shape = SubResource("RectangleShape2D_auxis")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(425.5, 36)
+shape = SubResource("RectangleShape2D_qffgt")
+
+[node name="Objects" type="Node2D" parent="."]
+
+[node name="cactus" type="Sprite2D" parent="Objects"]
+z_index = -1
+material = SubResource("ShaderMaterial_jdkaj")
+position = Vector2(-181, 13)
+scale = Vector2(0.0428743, 0.0428744)
+texture = ExtResource("3_e0ifr")
+
+[node name="bush" type="Sprite2D" parent="Objects"]
+material = SubResource("ShaderMaterial_jdkaj")
+position = Vector2(-101, -8)
+scale = Vector2(0.0761418, 0.0761418)
+texture = ExtResource("4_f78jt")
+
+[node name="flower" type="Sprite2D" parent="Objects"]
+material = SubResource("ShaderMaterial_jdkaj")
+position = Vector2(191, 9.99531)
+scale = Vector2(0.0286846, 0.0286846)
+texture = ExtResource("5_nfevk")
+
+[node name="plant" type="Sprite2D" parent="Objects"]
+material = SubResource("ShaderMaterial_jdkaj")
+position = Vector2(129, -19.0521)
+scale = Vector2(0.0798852, 0.0798853)
+texture = ExtResource("6_bdxi7")
+
+[node name="tree" type="Sprite2D" parent="Objects"]
+z_index = -1
+material = SubResource("ShaderMaterial_jdkaj")
+position = Vector2(296, -76)
+scale = Vector2(0.232954, 0.232954)
+texture = ExtResource("7_nve8v")
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+z_index = -2
+offset_left = -467.0
+offset_top = 25.0
+offset_right = 680.0
+offset_bottom = 476.0
+texture = ExtResource("8_po1vb")
+stretch_mode = 1
