@@ -1,0 +1,148 @@
+[gd_scene load_steps=10 format=3 uid="uid://5qvibu0oyi0k"]
+
+[ext_resource type="Texture2D" uid="uid://oa2js7f2bofm" path="res://Art/levels/plants/pot_tree.png" id="1_u1qjt"]
+[ext_resource type="Script" path="res://Levels/02_Stuff_Reacting/tree.gd" id="2_7sx85"]
+[ext_resource type="AudioStream" uid="uid://dlafqcm3yklb" path="res://Art/levels/plants/tree_shake.wav" id="3_lqa8b"]
+
+[sub_resource type="Shader" id="Shader_7ldre"]
+code = "shader_type canvas_item;
+
+uniform vec4 line_color : source_color = vec4(1.0);
+uniform float line_thickness : hint_range(0, 10) = 1.0;
+
+const vec2 OFFSETS[8] = {
+	vec2(-1, -1), vec2(-1, 0), vec2(-1, 1), vec2(0, -1), vec2(0, 1), 
+	vec2(1, -1), vec2(1, 0), vec2(1, 1)
+};
+
+void fragment() {
+	vec2 size = TEXTURE_PIXEL_SIZE * line_thickness;
+	float outline = 0.0;
+	
+	for (int i = 0; i < OFFSETS.length(); i++) {
+		outline += texture(TEXTURE, UV + size * OFFSETS[i]).a;
+	}
+	outline = min(outline, 1.0);
+	
+	vec4 color = texture(TEXTURE, UV);
+	COLOR = mix(color, line_color, outline - color.a);
+}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jdkaj"]
+shader = SubResource("Shader_7ldre")
+shader_parameter/line_color = Color(0.929412, 0.929412, 0.929412, 1)
+shader_parameter/line_thickness = 10.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nwjmh"]
+size = Vector2(266.147, 210.342)
+
+[sub_resource type="Animation" id="Animation_5rx4b"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AudioStreamPlayer2D:volume_db")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-10.0]
+}
+
+[sub_resource type="Animation" id="Animation_rpegl"]
+resource_name = "react_to_win"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.5, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.00872665, 0.00872665, -0.0122173, 0.0122173, 0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AudioStreamPlayer2D:volume_db")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-10.0, 0.0, -80.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_gs1fa"]
+_data = {
+"RESET": SubResource("Animation_5rx4b"),
+"react_to_win": SubResource("Animation_rpegl")
+}
+
+[node name="tree" type="Sprite2D"]
+z_index = -1
+material = SubResource("ShaderMaterial_jdkaj")
+position = Vector2(296, -76)
+scale = Vector2(0.232954, 0.232954)
+texture = ExtResource("1_u1qjt")
+script = ExtResource("2_7sx85")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-21.4635, 341.269)
+shape = SubResource("RectangleShape2D_nwjmh")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+"": SubResource("AnimationLibrary_gs1fa")
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("3_lqa8b")
+volume_db = -10.0
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

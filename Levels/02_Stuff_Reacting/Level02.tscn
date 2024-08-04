@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://b6xbmqa48goce" path="res://Art/levels/plants/pot_bush.png" id="4_f78jt"]
 [ext_resource type="Texture2D" uid="uid://bhrhyel7dueoe" path="res://Art/levels/plants/pot_flower.png" id="5_nfevk"]
 [ext_resource type="Texture2D" uid="uid://d1vkjf56o7xk0" path="res://Art/levels/plants/pot_plant.png" id="6_bdxi7"]
-[ext_resource type="Texture2D" uid="uid://oa2js7f2bofm" path="res://Art/levels/plants/pot_tree.png" id="7_nve8v"]
+[ext_resource type="PackedScene" uid="uid://5qvibu0oyi0k" path="res://Scenes/goal_object_animated.tscn" id="7_kufvw"]
 [ext_resource type="Shader" path="res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader" id="8_06gc6"]
 [ext_resource type="Texture2D" uid="uid://besswnaa35tuv" path="res://Art/levels/plants/concrete_test.jpg" id="8_po1vb"]
 [ext_resource type="Texture2D" uid="uid://bog1bhpe3fa0b" path="res://Art/levels/plants/paler_bricks.jpg" id="9_8yeuv"]
@@ -76,7 +76,6 @@ texture = ExtResource("1_8ra4c")
 remote_path = NodePath("../../Camera2D")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(0, -1)
 offset = Vector2(0, -70)
 zoom = Vector2(0.7, 0.7)
 process_callback = 0
@@ -131,12 +130,7 @@ position = Vector2(129, -19.0521)
 scale = Vector2(0.0798852, 0.0798853)
 texture = ExtResource("6_bdxi7")
 
-[node name="tree" type="Sprite2D" parent="Objects"]
-z_index = -1
-material = SubResource("ShaderMaterial_jdkaj")
-position = Vector2(296, -76)
-scale = Vector2(0.232954, 0.232954)
-texture = ExtResource("7_nve8v")
+[node name="tree" parent="Objects" instance=ExtResource("7_kufvw")]
 
 [node name="Background" type="Node2D" parent="."]
 

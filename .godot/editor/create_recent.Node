@@ -1,3 +1,8 @@
+AudioStreamPlayer2D
+AnimationPlayer
+AnimationTree
+CollisionShape2D
+Area2D
 Sprite2D
 ParallaxLayer
 ParallaxBackground
@@ -5,10 +10,5 @@ TextureRect
 Node2D
 Label
 CanvasLayer
-AudioStreamPlayer2D
 Button
 OptionButton
-VBoxContainer
-CenterContainer
-Area2D
-HBoxContainer
