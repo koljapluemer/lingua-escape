@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://c7w45ew46dvmh"]
+[gd_scene load_steps=21 format=3 uid="uid://c7w45ew46dvmh"]
 
 [ext_resource type="Texture2D" uid="uid://cdielg42jcmlf" path="res://Art/levels/plants/greenhouse.jpg" id="1_8ra4c"]
 [ext_resource type="PackedScene" uid="uid://xxaoff7gwbrm" path="res://Character/player.tscn" id="2_q6fby"]
@@ -7,8 +7,12 @@
 [ext_resource type="Texture2D" uid="uid://bhrhyel7dueoe" path="res://Art/levels/plants/pot_flower.png" id="5_nfevk"]
 [ext_resource type="Texture2D" uid="uid://d1vkjf56o7xk0" path="res://Art/levels/plants/pot_plant.png" id="6_bdxi7"]
 [ext_resource type="Texture2D" uid="uid://oa2js7f2bofm" path="res://Art/levels/plants/pot_tree.png" id="7_nve8v"]
+[ext_resource type="Shader" path="res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader" id="8_06gc6"]
 [ext_resource type="Texture2D" uid="uid://besswnaa35tuv" path="res://Art/levels/plants/concrete_test.jpg" id="8_po1vb"]
-[ext_resource type="Texture2D" uid="uid://ce5tbf7oas2fp" path="res://Art/levels/plants/bricks.jpg" id="9_jhfqq"]
+[ext_resource type="Texture2D" uid="uid://bog1bhpe3fa0b" path="res://Art/levels/plants/paler_bricks.jpg" id="9_8yeuv"]
+[ext_resource type="Texture2D" uid="uid://bo1g7hjeofqbn" path="res://Art/levels/plants/paler_window.png" id="12_6f5bi"]
+[ext_resource type="Texture2D" uid="uid://cniq03aqvxbff" path="res://Art/levels/plants/pale_bg_tree.png" id="12_bqimy"]
+[ext_resource type="Texture2D" uid="uid://db4a11vj1bfci" path="res://Art/levels/plants/pale_bg_pot.png" id="13_33wry"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5e002"]
 size = Vector2(32, 205)
@@ -47,6 +51,16 @@ void fragment() {
 shader = SubResource("Shader_7ldre")
 shader_parameter/line_color = Color(0.929412, 0.929412, 0.929412, 1)
 shader_parameter/line_thickness = 10.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lf5my"]
+shader = ExtResource("8_06gc6")
+shader_parameter/line_color = Color(0.482353, 0.513726, 0.615686, 1)
+shader_parameter/line_thickness = 5.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wgb5g"]
+shader = ExtResource("8_06gc6")
+shader_parameter/line_color = Color(0.654902, 0.709804, 0.831373, 1)
+shader_parameter/line_thickness = 5.0
 
 [node name="Level02" type="Node2D"]
 
@@ -138,7 +152,7 @@ stretch_mode = 1
 [node name="ParallaxBackground" type="ParallaxBackground" parent="Background"]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="Background/ParallaxBackground"]
-motion_scale = Vector2(0.5, 0.5)
+motion_scale = Vector2(0.7, 0.7)
 
 [node name="TextureRect2" type="TextureRect" parent="Background/ParallaxBackground/ParallaxLayer"]
 z_index = -2
@@ -146,11 +160,77 @@ offset_left = -472.0
 offset_top = -331.0
 offset_right = 885.0
 offset_bottom = 120.0
-texture = ExtResource("9_jhfqq")
+texture = ExtResource("9_8yeuv")
 stretch_mode = 1
 
-[node name="Sprite2D" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
-visible = false
-position = Vector2(0, -36)
-scale = Vector2(0.19, 0.19)
-texture = ExtResource("9_jhfqq")
+[node name="window" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(-238.574, -14.3449)
+rotation = 0.0174533
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("12_6f5bi")
+
+[node name="window_mirror" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(-238.574, -14.3449)
+rotation = 0.0174533
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("12_6f5bi")
+
+[node name="window2" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(-78.5744, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("12_6f5bi")
+
+[node name="window_mirror2" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(-78.5744, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("12_6f5bi")
+
+[node name="window3" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(89.4256, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("12_6f5bi")
+
+[node name="window_mirror3" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(89.4256, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("12_6f5bi")
+
+[node name="window4" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(265.426, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("12_6f5bi")
+
+[node name="window_mirror4" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(265.426, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("12_6f5bi")
+
+[node name="window5" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(425.426, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("12_6f5bi")
+
+[node name="window_mirror5" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(425.426, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("12_6f5bi")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Background/ParallaxBackground"]
+motion_scale = Vector2(0.8, 0.8)
+
+[node name="BgTree" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer2"]
+material = SubResource("ShaderMaterial_wgb5g")
+position = Vector2(76.25, -54)
+scale = Vector2(0.214062, 0.214062)
+texture = ExtResource("12_bqimy")
+
+[node name="BgTree2" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer2"]
+material = SubResource("ShaderMaterial_wgb5g")
+position = Vector2(-177, -36.3333)
+scale = Vector2(0.229167, 0.229167)
+texture = ExtResource("13_33wry")
