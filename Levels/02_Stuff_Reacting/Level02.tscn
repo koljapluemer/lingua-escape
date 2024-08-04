@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://c7w45ew46dvmh"]
+[gd_scene load_steps=15 format=3 uid="uid://c7w45ew46dvmh"]
 
 [ext_resource type="Texture2D" uid="uid://cdielg42jcmlf" path="res://Art/levels/plants/greenhouse.jpg" id="1_8ra4c"]
 [ext_resource type="PackedScene" uid="uid://xxaoff7gwbrm" path="res://Character/player.tscn" id="2_q6fby"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://d1vkjf56o7xk0" path="res://Art/levels/plants/pot_plant.png" id="6_bdxi7"]
 [ext_resource type="Texture2D" uid="uid://oa2js7f2bofm" path="res://Art/levels/plants/pot_tree.png" id="7_nve8v"]
 [ext_resource type="Texture2D" uid="uid://besswnaa35tuv" path="res://Art/levels/plants/concrete_test.jpg" id="8_po1vb"]
+[ext_resource type="Texture2D" uid="uid://ce5tbf7oas2fp" path="res://Art/levels/plants/bricks.jpg" id="9_jhfqq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5e002"]
 size = Vector2(32, 205)
@@ -133,3 +134,23 @@ offset_right = 680.0
 offset_bottom = 476.0
 texture = ExtResource("8_po1vb")
 stretch_mode = 1
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Background"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Background/ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+
+[node name="TextureRect2" type="TextureRect" parent="Background/ParallaxBackground/ParallaxLayer"]
+z_index = -2
+offset_left = -472.0
+offset_top = -331.0
+offset_right = 885.0
+offset_bottom = 120.0
+texture = ExtResource("9_jhfqq")
+stretch_mode = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+visible = false
+position = Vector2(0, -36)
+scale = Vector2(0.19, 0.19)
+texture = ExtResource("9_jhfqq")

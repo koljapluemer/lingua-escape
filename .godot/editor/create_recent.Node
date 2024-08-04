@@ -1,5 +1,7 @@
-TextureRect
 Sprite2D
+ParallaxLayer
+ParallaxBackground
+TextureRect
 Node2D
 Label
 CanvasLayer
@@ -10,5 +12,3 @@ VBoxContainer
 CenterContainer
 Area2D
 HBoxContainer
-ColorRect
-Timer
