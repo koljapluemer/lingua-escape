@@ -1,5 +1,6 @@
-AudioStreamPlayer2D
 AnimationPlayer
+Label
+AudioStreamPlayer2D
 AnimationTree
 CollisionShape2D
 Area2D
@@ -8,7 +9,6 @@ ParallaxLayer
 ParallaxBackground
 TextureRect
 Node2D
-Label
 CanvasLayer
 Button
 OptionButton

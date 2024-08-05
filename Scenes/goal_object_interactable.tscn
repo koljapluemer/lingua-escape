@@ -1,0 +1,106 @@
+[gd_scene load_steps=8 format=3 uid="uid://voiu3c7wkbgo"]
+
+[ext_resource type="Texture2D" uid="uid://civdulu5280c1" path="res://Art/levels/cat_test/cat.png" id="1_61bn3"]
+[ext_resource type="Script" path="res://Scenes/goal_object_interactable.gd" id="2_n775t"]
+
+[sub_resource type="Shader" id="Shader_7ldre"]
+code = "shader_type canvas_item;
+
+uniform vec4 line_color : source_color = vec4(1.0);
+uniform float line_thickness : hint_range(0, 10) = 1.0;
+
+const vec2 OFFSETS[8] = {
+	vec2(-1, -1), vec2(-1, 0), vec2(-1, 1), vec2(0, -1), vec2(0, 1), 
+	vec2(1, -1), vec2(1, 0), vec2(1, 1)
+};
+
+void fragment() {
+	vec2 size = TEXTURE_PIXEL_SIZE * line_thickness;
+	float outline = 0.0;
+	
+	for (int i = 0; i < OFFSETS.length(); i++) {
+		outline += texture(TEXTURE, UV + size * OFFSETS[i]).a;
+	}
+	outline = min(outline, 1.0);
+	
+	vec4 color = texture(TEXTURE, UV);
+	COLOR = mix(color, line_color, outline - color.a);
+}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jdkaj"]
+shader = SubResource("Shader_7ldre")
+shader_parameter/line_color = Color(0.929412, 0.929412, 0.929412, 1)
+shader_parameter/line_thickness = 10.0
+
+[sub_resource type="Animation" id="Animation_vporf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PurrLabel:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.20944]
+}
+
+[sub_resource type="Animation" id="Animation_gc0uk"]
+resource_name = "purr"
+length = 0.22
+loop_mode = 1
+step = 0.02
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PurrLabel:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.06, 0.12, 0.16, 0.22),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.20944, 0.139626, 0.261799, 0.139626, 0.261799]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_mslex"]
+_data = {
+"RESET": SubResource("Animation_vporf"),
+"purr": SubResource("Animation_gc0uk")
+}
+
+[node name="cat" type="Sprite2D"]
+z_index = -1
+material = SubResource("ShaderMaterial_jdkaj")
+scale = Vector2(0.0428743, 0.0428744)
+texture = ExtResource("1_61bn3")
+script = ExtResource("2_n775t")
+
+[node name="PurrLabel" type="Label" parent="."]
+unique_name_in_owner = true
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -371.869
+offset_top = -772.296
+offset_right = 118.131
+offset_bottom = -635.296
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.20944
+pivot_offset = Vector2(245, 66)
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 100
+text = "SCHNURR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+libraries = {
+"": SubResource("AnimationLibrary_mslex")
+}
