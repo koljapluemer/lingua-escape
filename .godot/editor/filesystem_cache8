@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722890568
+::res://::1722967517
 export_presets.cfg::TextFile::-1::1722613302::0::1::::<><>::
 icon.svg::CompressedTexture2D::1701750855830309230::1722524507::1722529340::1::::<><>::
 LICENSE.md::TextFile::-1::1722527205::0::1::::<><>::
@@ -105,14 +105,13 @@ pot_tree.png::CompressedTexture2D::984300236999649734::1722768111::1722768250::1
 tree_shake.wav::AudioStreamWAV::233284459225088031::1722780434::1722780456::1::::<><>::
 wall.jpg::CompressedTexture2D::5422148145397005464::1722773443::1722773817::1::::<><>::
 window.png::CompressedTexture2D::5061591222431275066::1722778020::1722778037::1::::<><>::
-::res://Art/paper_man/::1722890751
-paperman_spritesheet.png::CompressedTexture2D::7672847365173944435::1722890627::1722890753::1::::<><>::
+::res://Art/paper_man/::1722896950
 ::res://Art/Rabbit/::1722534098
 rabbit.png::CompressedTexture2D::8749297745045671121::1722529471::1722529471::1::::<><>::
 rabbit_avatar.png::CompressedTexture2D::1378475444644110549::1722534096::1722534098::1::::<><>::
-::res://Character/::1722786145
+::res://Character/::1722898332
 player.gd::GDScript::-1::1722605170::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1661849364936379042::1722786145::0::1::::<><>::res://Character/player.gd<>uid://cf5vr3rdkcdr0::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png<>uid://bvqkoppprkbil::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png<>uid://b1dop62ij8uuy::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/Jump-End-Sheet.png<>uid://bolynyyobgkop::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png<>uid://cilbq1jmxocd0::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png
+player.tscn::PackedScene::1661849364936379042::1722898332::0::1::::<><>::res://Character/player.gd<>uid://cf5vr3rdkcdr0::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Idle/Idle-Sheet.png<>uid://bvqkoppprkbil::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Run/Run-Sheet.png<>uid://b1dop62ij8uuy::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/Jump-End-Sheet.png<>uid://bolynyyobgkop::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/Jump-Start-Sheet.png<>uid://cilbq1jmxocd0::::res://Art/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/Jump-All-Sheet.png
 ::res://dist/::1722613302
 index.apple-touch-icon.png::CompressedTexture2D::9123142021567182268::1722613302::1722611394::1::::<><>::
 index.icon.png::CompressedTexture2D::5679509839607303376::1722613302::1722611394::1::::<><>::
@@ -127,28 +126,45 @@ TESTING.md::TextFile::-1::1722527212::0::1::::<><>::
 Lingua Escape.md::TextFile::-1::1722778741::0::1::::<><>::
 portfolio.json::JSON::-1::1722527205::0::1::::<><>::
 Sentence List Draft.md::TextFile::-1::1722881530::0::1::::<><>::
-::res://Levels/::1722786145
+::res://Levels/::1722898332
 start_menu.gd::GDScript::-1::1722609570::0::1::::<>Control<>::
-start_menu.tscn::PackedScene::8071007361148079871::1722786145::0::1::::<><>::res://Levels/start_menu.gd
+start_menu.tscn::PackedScene::8071007361148079871::1722898332::0::1::::<><>::res://Levels/start_menu.gd
 test_level.gd::GDScript::-1::1722613000::0::1::::<>Node2D<>::
-test_level.tscn::PackedScene::8026915360369246657::1722786145::0::1::::<><>::uid://cnb6vef35n3ad::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>res://Levels/test_level.gd<>uid://cqrqnlx2jpsop::::res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://2ipwf08dwd0m::::res://Scenes/goal_object.tscn<>uid://k1v48sxv7w50::::res://Scenes/tutor.tscn<>uid://dmlxe0o01bmhl::::res://Scenes/Dialog/DialogPlayer.tscn<>uid://bclj70vjolgrr::::res://Art/Audio/bottles_demo.mp3
-::res://Levels/02_Stuff_Reacting/::1722786146
-Level02.tscn::PackedScene::7066115286438221851::1722786145::0::1::::<><>::uid://cdielg42jcmlf::::res://Art/levels/plants/greenhouse.jpg<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://caxq886xvv7xg::::res://Art/levels/plants/pot_cactus.png<>uid://b6xbmqa48goce::::res://Art/levels/plants/pot_bush.png<>uid://bhrhyel7dueoe::::res://Art/levels/plants/pot_flower.png<>uid://d1vkjf56o7xk0::::res://Art/levels/plants/pot_plant.png<>uid://5qvibu0oyi0k::::res://Scenes/goal_object_animated.tscn<>res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader<>uid://besswnaa35tuv::::res://Art/levels/plants/concrete_test.jpg<>uid://bog1bhpe3fa0b::::res://Art/levels/plants/paler_bricks.jpg<>uid://bo1g7hjeofqbn::::res://Art/levels/plants/paler_window.png<>uid://cniq03aqvxbff::::res://Art/levels/plants/pale_bg_tree.png<>uid://db4a11vj1bfci::::res://Art/levels/plants/pale_bg_pot.png
-Outline_Alt.gdshader::Shader::-1::1722786146::0::1::::<><>::
-tree.gd::GDScript::-1::1722780834::0::1::::<>Sprite2D<>::
-::res://Levels/03_Interact/::1722786146
-Level03.tscn::PackedScene::2159206918417818823::1722786146::0::1::::<><>::uid://cdielg42jcmlf::::res://Art/levels/plants/greenhouse.jpg<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://voiu3c7wkbgo::::res://Scenes/goal_object_interactable.tscn<>uid://besswnaa35tuv::::res://Art/levels/plants/concrete_test.jpg<>uid://bog1bhpe3fa0b::::res://Art/levels/plants/paler_bricks.jpg<>uid://bo1g7hjeofqbn::::res://Art/levels/plants/paler_window.png<>res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader<>uid://cniq03aqvxbff::::res://Art/levels/plants/pale_bg_tree.png
+test_level.tscn::PackedScene::8026915360369246657::1722898332::0::1::::<><>::uid://cnb6vef35n3ad::::res://Art/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png<>res://Levels/test_level.gd<>uid://cqrqnlx2jpsop::::res://Art/Legacy-Fantasy - High Forest 2.3/Background/Background.png<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://2ipwf08dwd0m::::res://Scenes/goal_object.tscn<>uid://k1v48sxv7w50::::res://Scenes/tutor.tscn<>uid://dmlxe0o01bmhl::::res://Scenes/Dialog/DialogPlayer.tscn<>uid://bclj70vjolgrr::::res://Art/Audio/bottles_demo.mp3
+::res://Levels/02_Stuff_Reacting/::1722965901
+Level02.tscn::PackedScene::7066115286438221851::1722898332::0::1::::<><>::uid://cdielg42jcmlf::::res://Art/levels/plants/greenhouse.jpg<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://caxq886xvv7xg::::res://Art/levels/plants/pot_cactus.png<>uid://b6xbmqa48goce::::res://Art/levels/plants/pot_bush.png<>uid://bhrhyel7dueoe::::res://Art/levels/plants/pot_flower.png<>uid://d1vkjf56o7xk0::::res://Art/levels/plants/pot_plant.png<>uid://5qvibu0oyi0k::::res://Scenes/goal_object_animated.tscn<>res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader<>uid://besswnaa35tuv::::res://Art/levels/plants/concrete_test.jpg<>uid://bog1bhpe3fa0b::::res://Art/levels/plants/paler_bricks.jpg<>uid://bo1g7hjeofqbn::::res://Art/levels/plants/paler_window.png<>uid://cniq03aqvxbff::::res://Art/levels/plants/pale_bg_tree.png<>uid://db4a11vj1bfci::::res://Art/levels/plants/pale_bg_pot.png
+Outline_Alt.gdshader::Shader::-1::1722965901::0::1::::<><>::
+tree.gd::GDScript::-1::1722896111::0::1::::<>Sprite2D<>::
+::res://Levels/03_Interact/::1722898332
+Level03.tscn::PackedScene::2159206918417818823::1722898332::0::1::::<><>::uid://cdielg42jcmlf::::res://Art/levels/plants/greenhouse.jpg<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://voiu3c7wkbgo::::res://Scenes/goal_object_interactable.tscn<>uid://besswnaa35tuv::::res://Art/levels/plants/concrete_test.jpg<>uid://bog1bhpe3fa0b::::res://Art/levels/plants/paler_bricks.jpg<>uid://bo1g7hjeofqbn::::res://Art/levels/plants/paler_window.png<>res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader<>uid://cniq03aqvxbff::::res://Art/levels/plants/pale_bg_tree.png
 Outline_Alt.gdshader::Shader::-1::1722784790::0::1::::<><>::
 tree.gd::GDScript::-1::1722784790::0::1::::<>Sprite2D<>::
-::res://Scenes/::1722890586
+::res://Scenes/::1722898332
 goal_object.gd::GDScript::-1::1722604961::0::1::::<>Area2D<>::
-goal_object.tscn::PackedScene::1912564145357865386::1722786145::0::1::::<><>::res://Scenes/goal_object.gd
-goal_object_animated.tscn::PackedScene::2139984780980249020::1722786145::0::1::::<><>::uid://oa2js7f2bofm::::res://Art/levels/plants/pot_tree.png<>res://Levels/02_Stuff_Reacting/tree.gd<>uid://dlafqcm3yklb::::res://Art/levels/plants/tree_shake.wav
+goal_object.tscn::PackedScene::1912564145357865386::1722898332::0::1::::<><>::res://Scenes/goal_object.gd
+goal_object_animated.tscn::PackedScene::2139984780980249020::1722898332::0::1::::<><>::uid://oa2js7f2bofm::::res://Art/levels/plants/pot_tree.png<>res://Levels/02_Stuff_Reacting/tree.gd<>uid://dlafqcm3yklb::::res://Art/levels/plants/tree_shake.wav
 goal_object_interactable.gd::GDScript::-1::1722786140::0::1::::<>Sprite2D<>::
-goal_object_interactable.tscn::PackedScene::1503389932002886798::1722786146::0::1::::<><>::uid://civdulu5280c1::::res://Art/levels/cat_test/cat.png<>res://Scenes/goal_object_interactable.gd
-paper_robot.tscn::PackedScene::992186702193398418::1722890586::0::1::::<><>::res://Scenes/tutor.gd<>uid://dwwhwj3vew8nd::::res://Art/Rabbit/rabbit.png
-tutor.gd::GDScript::-1::1722606332::0::1::::<>CharacterBody2D<>::
-tutor.tscn::PackedScene::756890865008611997::1722786145::0::1::::<><>::res://Scenes/tutor.gd<>uid://dwwhwj3vew8nd::::res://Art/Rabbit/rabbit.png
-::res://Scenes/Dialog/::1722786145
+goal_object_interactable.tscn::PackedScene::1503389932002886798::1722898332::0::1::::<><>::uid://civdulu5280c1::::res://Art/levels/cat_test/cat.png<>res://Scenes/goal_object_interactable.gd
+tutor.gd::GDScript::-1::1722897852::0::1::::<>CharacterBody2D<>::
+tutor.tscn::PackedScene::756890865008611997::1722898332::0::1::::<><>::res://Scenes/tutor.gd<>uid://dwwhwj3vew8nd::::res://Art/Rabbit/rabbit.png
+::res://Scenes/Dialog/::1722898332
 DialogPlayer.gd::GDScript::-1::1722606565::0::1::::<>CanvasLayer<>::
-DialogPlayer.tscn::PackedScene::8025641299921296753::1722786145::0::1::::<><>::res://Scenes/Dialog/DialogPlayer.gd<>uid://tv0j3j0vx702::::res://Art/Rabbit/rabbit_avatar.png
+DialogPlayer.tscn::PackedScene::8025641299921296753::1722898332::0::1::::<><>::res://Scenes/Dialog/DialogPlayer.gd<>uid://tv0j3j0vx702::::res://Art/Rabbit/rabbit_avatar.png
+::res://src/::1722896874
+::res://src/dialog/::1722898333
+dialog_player.tscn::PackedScene::5432304318586610687::1722898333::0::1::::<><>::res://Scenes/Dialog/DialogPlayer.gd<>uid://dww8lqfilfhlo::::res://src/tutor/v1/interact_3.png
+::res://src/levels/::1722895990
+::res://src/levels/01_two_objects_walk/::1722898333
+bottle_1.png::CompressedTexture2D::3606522017615853979::1722897471::1722897557::1::::<><>::
+bottle_2.png::CompressedTexture2D::6258527547496917347::1722897413::1722897557::1::::<><>::
+box.png::CompressedTexture2D::2717238433225500291::1722896514::1722897557::1::::<><>::
+map.gd::GDScript::-1::1722897182::0::1::::<>Node2D<>::
+map.tscn::PackedScene::2649319271216108435::1722898333::0::1::::<><>::res://src/levels/01_two_objects_walk/map.gd<>uid://cdielg42jcmlf::::res://Art/levels/plants/greenhouse.jpg<>uid://xxaoff7gwbrm::::res://Character/player.tscn<>uid://brna5jwq0bnnv::::res://src/levels/01_two_objects_walk/bottle_1.png<>uid://cvfxbfxdw6w16::::res://src/levels/01_two_objects_walk/bottle_2.png<>uid://beyirxefawgmd::::res://src/levels/01_two_objects_walk/box.png<>uid://dkuuhnh2vstbg::::res://src/levels/01_two_objects_walk/shroom.png<>uid://besswnaa35tuv::::res://Art/levels/plants/concrete_test.jpg<>uid://oevf1swkoiis::::res://src/tutor/v1/paper_robot.tscn<>uid://bog1bhpe3fa0b::::res://Art/levels/plants/paler_bricks.jpg<>uid://bo1g7hjeofqbn::::res://Art/levels/plants/paler_window.png<>uid://bclj70vjolgrr::::res://Art/Audio/bottles_demo.mp3<>res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader<>uid://cniq03aqvxbff::::res://Art/levels/plants/pale_bg_tree.png<>uid://db4a11vj1bfci::::res://Art/levels/plants/pale_bg_pot.png<>uid://cjnpi11odmhtn::::res://src/dialog/dialog_player.tscn<>uid://2ipwf08dwd0m::::res://Scenes/goal_object.tscn<>uid://dafiapcfmr3nl::::res://src/levels/01_two_objects_walk/outline_full.tres
+outline_full.tres::ShaderMaterial::7170070466975508893::1722898225::0::1::::<><>::res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader
+shroom.png::CompressedTexture2D::7903665577826217844::1722896320::1722897557::1::::<><>::
+::res://src/tutor/::1722896582
+::res://src/tutor/v1/::1722898332
+interact_3.png::CompressedTexture2D::8750857074675590328::1722890353::1722896950::1::::<><>::
+paperman_spritesheet.png::CompressedTexture2D::7672847365173944435::1722890627::1722896951::1::::<><>::
+paper_robot.gd::GDScript::-1::1722897863::0::1::::<>CharacterBody2D<>::
+paper_robot.tscn::PackedScene::992186702193398418::1722898332::0::1::::<><>::res://src/tutor/v1/paper_robot.gd<>uid://dafiapcfmr3nl::::res://src/levels/01_two_objects_walk/outline_full.tres<>uid://dhk1w7nvtt73t::::res://src/tutor/v1/paperman_spritesheet.png

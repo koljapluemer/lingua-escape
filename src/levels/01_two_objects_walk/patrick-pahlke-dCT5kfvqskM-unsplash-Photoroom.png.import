@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhk1w7nvtt73t"
-path="res://.godot/imported/paperman_spritesheet.png-43d30b2f70aacba30890abaf3d54a65d.ctex"
+uid="uid://cd31j2iri3o60"
+path="res://.godot/imported/patrick-pahlke-dCT5kfvqskM-unsplash-Photoroom.png-6344cd15d59e0776b638ff0aa924cfe2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/paper_man/paperman_spritesheet.png"
-dest_files=["res://.godot/imported/paperman_spritesheet.png-43d30b2f70aacba30890abaf3d54a65d.ctex"]
+source_file="res://src/levels/01_two_objects_walk/patrick-pahlke-dCT5kfvqskM-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/patrick-pahlke-dCT5kfvqskM-unsplash-Photoroom.png-6344cd15d59e0776b638ff0aa924cfe2.ctex"]
 
 [params]
 

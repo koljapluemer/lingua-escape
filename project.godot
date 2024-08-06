@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="SidescrollerQuickstart"
-run/main_scene="res://Levels/03_Interact/Level03.tscn"
+config/name="Lingua Escape"
+run/main_scene="res://src/levels/01_two_objects_walk/map.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 

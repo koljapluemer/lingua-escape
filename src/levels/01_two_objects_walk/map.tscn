@@ -1,0 +1,260 @@
+[gd_scene load_steps=24 format=3 uid="uid://bd0l5v60dqvff"]
+
+[ext_resource type="Script" path="res://src/levels/01_two_objects_walk/map.gd" id="1_4ss7o"]
+[ext_resource type="Texture2D" uid="uid://cdielg42jcmlf" path="res://Art/levels/plants/greenhouse.jpg" id="1_yfdq5"]
+[ext_resource type="PackedScene" uid="uid://xxaoff7gwbrm" path="res://Character/player.tscn" id="2_8c1nm"]
+[ext_resource type="Texture2D" uid="uid://brna5jwq0bnnv" path="res://src/levels/01_two_objects_walk/bottle_1.png" id="4_pafab"]
+[ext_resource type="Texture2D" uid="uid://cvfxbfxdw6w16" path="res://src/levels/01_two_objects_walk/bottle_2.png" id="5_q46qv"]
+[ext_resource type="Texture2D" uid="uid://beyirxefawgmd" path="res://src/levels/01_two_objects_walk/box.png" id="6_3e7d2"]
+[ext_resource type="Texture2D" uid="uid://dkuuhnh2vstbg" path="res://src/levels/01_two_objects_walk/shroom.png" id="7_wdnv7"]
+[ext_resource type="Texture2D" uid="uid://besswnaa35tuv" path="res://Art/levels/plants/concrete_test.jpg" id="8_x43v8"]
+[ext_resource type="PackedScene" uid="uid://oevf1swkoiis" path="res://src/tutor/v1/paper_robot.tscn" id="9_tawai"]
+[ext_resource type="Texture2D" uid="uid://bog1bhpe3fa0b" path="res://Art/levels/plants/paler_bricks.jpg" id="9_x4rn3"]
+[ext_resource type="Texture2D" uid="uid://bo1g7hjeofqbn" path="res://Art/levels/plants/paler_window.png" id="10_0ky61"]
+[ext_resource type="AudioStream" uid="uid://bclj70vjolgrr" path="res://Art/Audio/bottles_demo.mp3" id="11_8a2il"]
+[ext_resource type="Shader" path="res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader" id="11_xdglr"]
+[ext_resource type="Texture2D" uid="uid://cniq03aqvxbff" path="res://Art/levels/plants/pale_bg_tree.png" id="12_quvkg"]
+[ext_resource type="Texture2D" uid="uid://db4a11vj1bfci" path="res://Art/levels/plants/pale_bg_pot.png" id="13_23llp"]
+[ext_resource type="PackedScene" uid="uid://cjnpi11odmhtn" path="res://src/dialog/dialog_player.tscn" id="13_emk8w"]
+[ext_resource type="PackedScene" uid="uid://2ipwf08dwd0m" path="res://Scenes/goal_object.tscn" id="13_f81du"]
+[ext_resource type="Material" uid="uid://dafiapcfmr3nl" path="res://src/levels/01_two_objects_walk/outline_full.tres" id="17_2swdx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5e002"]
+size = Vector2(32, 205)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_auxis"]
+size = Vector2(32, 205)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qffgt"]
+size = Vector2(803, 42.5)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lf5my"]
+shader = ExtResource("11_xdglr")
+shader_parameter/line_color = Color(0.482353, 0.513726, 0.615686, 1)
+shader_parameter/line_thickness = 5.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wgb5g"]
+shader = ExtResource("11_xdglr")
+shader_parameter/line_color = Color(0.654902, 0.709804, 0.831373, 1)
+shader_parameter/line_thickness = 5.0
+
+[node name="Map" type="Node2D"]
+script = ExtResource("1_4ss7o")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(40, -21)
+scale = Vector2(0.0615451, 0.0615451)
+texture = ExtResource("1_yfdq5")
+
+[node name="Player" parent="." instance=ExtResource("2_8c1nm")]
+unique_name_in_owner = true
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
+remote_path = NodePath("../../Camera2D")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(0, -70)
+zoom = Vector2(0.7, 0.7)
+process_callback = 0
+limit_left = -420
+limit_top = -400
+limit_right = 535
+limit_bottom = 400
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+editor_draw_limits = true
+
+[node name="Map Limit" type="StaticBody2D" parent="."]
+position = Vector2(-354, 10)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(13, -13.5)
+shape = SubResource("RectangleShape2D_5e002")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(837, -13.5)
+shape = SubResource("RectangleShape2D_auxis")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Map Limit"]
+position = Vector2(425.5, 36)
+shape = SubResource("RectangleShape2D_qffgt")
+
+[node name="Objects" type="Node2D" parent="."]
+
+[node name="Bottle1" type="Sprite2D" parent="Objects"]
+material = ExtResource("17_2swdx")
+position = Vector2(178, 6)
+scale = Vector2(0.034375, 0.034375)
+texture = ExtResource("4_pafab")
+
+[node name="Bottle2" type="Sprite2D" parent="Objects"]
+material = ExtResource("17_2swdx")
+position = Vector2(196.757, 6.83047)
+scale = Vector2(0.0464958, 0.0464958)
+texture = ExtResource("5_q46qv")
+
+[node name="Box" type="Sprite2D" parent="Objects"]
+z_index = -2
+material = ExtResource("17_2swdx")
+position = Vector2(116, 7)
+scale = Vector2(0.0769765, 0.0769765)
+texture = ExtResource("6_3e7d2")
+
+[node name="Shroom" type="Sprite2D" parent="Objects"]
+z_index = -2
+material = ExtResource("17_2swdx")
+position = Vector2(-126.83, 11.7433)
+scale = Vector2(0.0441512, 0.0441512)
+texture = ExtResource("7_wdnv7")
+
+[node name="Background" type="Node2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+z_index = -2
+material = ExtResource("17_2swdx")
+offset_left = -467.0
+offset_top = 25.0
+offset_right = 680.0
+offset_bottom = 476.0
+texture = ExtResource("8_x43v8")
+stretch_mode = 1
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Background"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Background/ParallaxBackground"]
+motion_scale = Vector2(0.7, 0.7)
+
+[node name="TextureRect2" type="TextureRect" parent="Background/ParallaxBackground/ParallaxLayer"]
+z_index = -2
+offset_left = -472.0
+offset_top = -331.0
+offset_right = 885.0
+offset_bottom = 120.0
+texture = ExtResource("9_x4rn3")
+stretch_mode = 1
+
+[node name="window" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(-238.574, -14.3449)
+rotation = 0.0174533
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("10_0ky61")
+
+[node name="window_mirror" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(-238.574, -14.3449)
+rotation = 0.0174533
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("10_0ky61")
+
+[node name="window2" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(-78.5744, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("10_0ky61")
+
+[node name="window_mirror2" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(-78.5744, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("10_0ky61")
+
+[node name="window3" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(89.4256, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("10_0ky61")
+
+[node name="window_mirror3" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(89.4256, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("10_0ky61")
+
+[node name="window4" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(265.426, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("10_0ky61")
+
+[node name="window_mirror4" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(265.426, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("10_0ky61")
+
+[node name="window5" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+position = Vector2(425.426, -14.3449)
+scale = Vector2(0.181886, 0.181886)
+texture = ExtResource("10_0ky61")
+
+[node name="window_mirror5" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer"]
+material = SubResource("ShaderMaterial_lf5my")
+position = Vector2(425.426, -14.3449)
+scale = Vector2(-0.182, 0.182)
+texture = ExtResource("10_0ky61")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Background/ParallaxBackground"]
+motion_scale = Vector2(0.8, 0.8)
+
+[node name="BgTree" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer2"]
+material = SubResource("ShaderMaterial_wgb5g")
+position = Vector2(76.25, -54)
+scale = Vector2(0.214062, 0.214062)
+texture = ExtResource("12_quvkg")
+
+[node name="BgTree2" type="Sprite2D" parent="Background/ParallaxBackground/ParallaxLayer2"]
+material = SubResource("ShaderMaterial_wgb5g")
+position = Vector2(-177, -36.3333)
+scale = Vector2(0.229167, 0.229167)
+texture = ExtResource("13_23llp")
+
+[node name="Tutor" parent="." instance=ExtResource("9_tawai")]
+unique_name_in_owner = true
+position = Vector2(-72, 6)
+
+[node name="AudioPlayer" type="AudioStreamPlayer2D" parent="."]
+unique_name_in_owner = true
+stream = ExtResource("11_8a2il")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -11.0
+offset_right = 251.0
+offset_bottom = 12.0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 8
+text = "W and D to move"
+
+[node name="UI" type="CanvasLayer" parent="."]
+unique_name_in_owner = true
+
+[node name="Label" type="Label" parent="UI"]
+offset_right = 40.0
+offset_bottom = 23.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "You win!"
+
+[node name="Goals" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="box" parent="Goals" instance=ExtResource("13_f81du")]
+position = Vector2(115, 6)
+scale = Vector2(1.52, 1.2)
+id = "box"
+sentence_block = "zur Box"
+
+[node name="pilz" parent="Goals" instance=ExtResource("13_f81du")]
+position = Vector2(-130, 3)
+id = "shroom"
+sentence_block = "zum Pilz"
+
+[node name="bottles" parent="Goals" instance=ExtResource("13_f81du")]
+position = Vector2(185, 2)
+id = "bottles"
+sentence_block = "zu den Flaschen"
+
+[node name="DialogPlayer" parent="." instance=ExtResource("13_emk8w")]
+unique_name_in_owner = true
