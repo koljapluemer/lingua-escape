@@ -1,6 +1,7 @@
-res://Scenes/paper_robot.tscn
-res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader
 res://Levels/test_level.tscn
+res://Scenes/tutor.gd
+res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader
+res://src/levels/01_two_objects_walk/outline_full.tres
 res://Scenes/Dialog/DialogPlayer.tscn
 res://Scenes/tutor.tscn
 res://Character/player.tscn
@@ -10,11 +11,6 @@ res://Levels/02_Stuff_Reacting/Level02.tscn
 res://Scenes/goal_object_animated.tscn
 res://Levels/03_Interact/Level03.tscn
 res://Scenes/goal_object_interactable.tscn
-res://Levels/02_Stuff_Reacting/tree.gd
-res://src/levels/01_two_objects_walk/map.tscn
 res://src/tutor/v1/paper_robot.tscn
-res://src/levels/01_two_objects_walk/map.gd
+res://src/levels/01_two_objects_walk/map.tscn
 res://src/dialog/dialog_player.tscn
-res://Scenes/tutor.gd
-res://src/tutor/v1/paper_robot.gd
-res://src/levels/01_two_objects_walk/outline_full.tres
