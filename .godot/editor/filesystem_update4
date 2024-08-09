@@ -1,7 +1,8 @@
-res://Levels/test_level.tscn
+res://src/dialog/dialog_player.tscn
 res://Scenes/tutor.gd
 res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader
 res://src/levels/01_two_objects_walk/outline_full.tres
+res://Levels/test_level.tscn
 res://Scenes/Dialog/DialogPlayer.tscn
 res://Scenes/tutor.tscn
 res://Character/player.tscn
@@ -13,4 +14,3 @@ res://Levels/03_Interact/Level03.tscn
 res://Scenes/goal_object_interactable.tscn
 res://src/tutor/v1/paper_robot.tscn
 res://src/levels/01_two_objects_walk/map.tscn
-res://src/dialog/dialog_player.tscn

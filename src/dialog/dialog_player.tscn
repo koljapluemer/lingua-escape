@@ -24,7 +24,7 @@ unique_name_in_owner = true
 custom_minimum_size = Vector2(20, 20)
 layout_mode = 2
 texture = ExtResource("2_yp7yf")
-expand_mode = 1
+expand_mode = 3
 
 [node name="TextLabel" type="Label" parent="Box"]
 unique_name_in_owner = true
