@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dm8wkuy1su4w6"]
 
-[ext_resource type="Script" path="res://Levels/start_menu.gd" id="1_5715b"]
+[ext_resource type="Script" path="res://src/levels/00_main_menu/start_menu.gd" id="1_5715b"]
 
 [node name="StartMenu" type="Control"]
 layout_mode = 3
@@ -38,6 +38,6 @@ text = "Play"
 
 [node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
 layout_mode = 2
-text = "Follow the rabbit's instructions."
+text = "Follow the robot's instructions."
 
 [connection signal="pressed" from="CenterContainer/VBoxContainer/ButtonPlay" to="." method="_on_button_play_pressed"]
