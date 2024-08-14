@@ -12,34 +12,37 @@ signal target_reached
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var direction : Vector2 = Vector2.ZERO
 
-
 var target: Node2D
 
-func _physics_process(delta):
-	# Add the gravity.
-	if not is_on_floor():
-		velocity.y += gravity * delta
+enum State {
+	Idle,
+	IsDemonstrating
+}
 
-	# if target set, move towards target
-	# this is an NPC, NOT player-controlled at all
-	if target:
-		direction = target.global_position - global_position
-		direction = direction.normalized()
-		velocity.x = direction.x * speed
-		velocity.y = direction.y * speed
-		move_and_slide()
-		update_animation()
-		update_facing_direction()
-		# if closer than 10 units, stop
-		# set target to null, go idle
-		if global_position.distance_to(target.global_position) < 10:
-			target = null
-			velocity = Vector2.ZERO
-			animated_sprite.play("idle")
-			target_reached.emit()
+var current_state = State.Idle
+
+func _physics_process(delta):
+	match current_state:
+		State.IsDemonstrating:
+			direction = target.global_position - global_position
+			direction = direction.normalized()
+			velocity.x = direction.x * speed
+			velocity.y = direction.y * speed
+			move_and_slide()
+			update_animation()
+			update_facing_direction()
+			# if closer than 10 units, stop
+			# set target to null, go idle
+			if global_position.distance_to(target.global_position) < 10:
+				target = null
+				velocity = Vector2.ZERO
+				animated_sprite.play("idle")
+				target_reached.emit()
+				current_state = State.Idle
 
 func set_target(tar):
 	target = tar
+	current_state = State.IsDemonstrating
 	
 func update_animation():
 	if direction.x != 0:
