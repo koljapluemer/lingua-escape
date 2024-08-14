@@ -1,11 +1,24 @@
 extends Node2D
+@onready var player: CharacterBody2D = %Player
+@onready var tutor: CharacterBody2D = %Tutor
+@onready var goals: Node2D = %Goals
+@onready var ui: CanvasLayer = %UI
 
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	goals.visible = false
+	tutor.visible = false
+	ui.visible = false
+	
+	create_event_timer(4, e_show_tutor)
 
+func e_show_tutor():
+	tutor.visible = true
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func create_event_timer(n, function_to_call):
+	var timer := Timer.new()
+	add_child(timer)
+	timer.wait_time = n
+	timer.one_shot = true
+	timer.connect("timeout", function_to_call)
+	timer.start()
