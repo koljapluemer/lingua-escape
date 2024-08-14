@@ -65,6 +65,7 @@ position = Vector2(425.5, 36)
 shape = SubResource("RectangleShape2D_qffgt")
 
 [node name="Objects" type="Node2D" parent="."]
+unique_name_in_owner = true
 
 [node name="laptop" type="Sprite2D" parent="Objects"]
 material = ExtResource("4_glc7b")
@@ -122,9 +123,8 @@ unique_name_in_owner = true
 [node name="laptop" parent="Goals" instance=ExtResource("17_xq2ak")]
 position = Vector2(112, 17)
 scale = Vector2(0.960001, 0.72)
-id = "box"
-sentence_block = "zur Box"
+id = "laptop"
+sentence_block = "zum Laptop"
 
 [node name="DialogPlayer" parent="." instance=ExtResource("18_6u2fn")]
 unique_name_in_owner = true
-visible = false
