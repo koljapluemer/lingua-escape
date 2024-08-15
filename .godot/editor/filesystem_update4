@@ -25,3 +25,5 @@ res://src/levels/xxx_three_objects_walk/level.tscn
 res://src/levels/001_computer_only/level.gd
 res://src/levels/999_three_objects_walk/level.tscn
 res://src/levels/999_three_objects_walk/level.gd
+res://src/components/dialog/dialog_player.tscn
+res://src/components/tutor/v1/paper_robot.tscn
