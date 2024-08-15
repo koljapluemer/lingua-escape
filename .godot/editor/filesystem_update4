@@ -1,9 +1,8 @@
-res://src/levels/001_computer_only/lvl000.tscn
+res://Levels/test_level.gd
+res://Levels/test_level.tscn
 res://Scenes/tutor.gd
 res://Levels/02_Stuff_Reacting/Outline_Alt.gdshader
 res://src/levels/01_two_objects_walk/outline_full.tres
-res://src/levels/001_computer_only/lvl000.gd
-res://Levels/test_level.tscn
 res://Scenes/Dialog/DialogPlayer.tscn
 res://Scenes/tutor.tscn
 res://Character/player.tscn
@@ -17,3 +16,12 @@ res://src/tutor/v1/paper_robot.tscn
 res://src/levels/01_two_objects_walk/map.tscn
 res://src/dialog/dialog_player.tscn
 res://src/levels/001_computer_only/map.tscn
+res://src/levels/001_computer_only/lvl000.tscn
+res://TODO.md
+res://src/levels/xxx_two_objects_walk/map.tscn
+res://src/levels/001_computer_only/level.tscn
+res://src/levels/xxx_two_objects_walk/level.tscn
+res://src/levels/xxx_three_objects_walk/level.tscn
+res://src/levels/001_computer_only/level.gd
+res://src/levels/999_three_objects_walk/level.tscn
+res://src/levels/999_three_objects_walk/level.gd

@@ -1,8 +1,8 @@
 [gd_scene load_steps=14 format=3 uid="uid://oevf1swkoiis"]
 
 [ext_resource type="Script" path="res://src/tutor/v1/paper_robot.gd" id="1_qs3q7"]
-[ext_resource type="Material" uid="uid://dafiapcfmr3nl" path="res://src/levels/01_two_objects_walk/outline_full.tres" id="2_akq4f"]
 [ext_resource type="Texture2D" uid="uid://dhk1w7nvtt73t" path="res://src/tutor/v1/paperman_spritesheet.png" id="2_hwh1g"]
+[ext_resource type="Material" uid="uid://dafiapcfmr3nl" path="res://src/levels/999_three_objects_walk/outline_full.tres" id="2_r1swf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_coafp"]
 atlas = ExtResource("2_hwh1g")
@@ -91,7 +91,7 @@ height = 26.0
 script = ExtResource("1_qs3q7")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-material = ExtResource("2_akq4f")
+material = ExtResource("2_r1swf")
 position = Vector2(-7, -10)
 scale = Vector2(0.0489691, 0.0489691)
 sprite_frames = SubResource("SpriteFrames_q1ej8")
