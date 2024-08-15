@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj2eyas36a7v5"
-path="res://.godot/imported/jonathan-talbert-VtIQwaUn-GE-unsplash-Photoroom-Photoroom.png-8e9091156988edc5ecc6f4acd53bea2f.ctex"
+path="res://.godot/imported/jonathan-talbert-VtIQwaUn-GE-unsplash-Photoroom-Photoroom.png-a58a5ef12ab22ef59e50ff40492da5b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/jonathan-talbert-VtIQwaUn-GE-unsplash-Photoroom-Photoroom.png"
-dest_files=["res://.godot/imported/jonathan-talbert-VtIQwaUn-GE-unsplash-Photoroom-Photoroom.png-8e9091156988edc5ecc6f4acd53bea2f.ctex"]
+source_file="res://src/shared_assets/images/no_bg/jonathan-talbert-VtIQwaUn-GE-unsplash-Photoroom-Photoroom.png"
+dest_files=["res://.godot/imported/jonathan-talbert-VtIQwaUn-GE-unsplash-Photoroom-Photoroom.png-a58a5ef12ab22ef59e50ff40492da5b8.ctex"]
 
 [params]
 

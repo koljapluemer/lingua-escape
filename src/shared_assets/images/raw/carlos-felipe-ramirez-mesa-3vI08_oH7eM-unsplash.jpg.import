@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg2ydhpopg4gw"
-path="res://.godot/imported/carlos-felipe-ramirez-mesa-3vI08_oH7eM-unsplash.jpg-0bbc4a46f2779c57d85333fb1fdc1844.ctex"
+path="res://.godot/imported/carlos-felipe-ramirez-mesa-3vI08_oH7eM-unsplash.jpg-4a414ff383d4d82b37ad18b8ba8148b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/carlos-felipe-ramirez-mesa-3vI08_oH7eM-unsplash.jpg"
-dest_files=["res://.godot/imported/carlos-felipe-ramirez-mesa-3vI08_oH7eM-unsplash.jpg-0bbc4a46f2779c57d85333fb1fdc1844.ctex"]
+source_file="res://src/shared_assets/images/raw/carlos-felipe-ramirez-mesa-3vI08_oH7eM-unsplash.jpg"
+dest_files=["res://.godot/imported/carlos-felipe-ramirez-mesa-3vI08_oH7eM-unsplash.jpg-4a414ff383d4d82b37ad18b8ba8148b9.ctex"]
 
 [params]
 

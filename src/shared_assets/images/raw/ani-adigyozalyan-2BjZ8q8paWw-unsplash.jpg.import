@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u1a6phkp8g72"
-path="res://.godot/imported/ani-adigyozalyan-2BjZ8q8paWw-unsplash.jpg-6e870539536d60028f1865ff1d097e03.ctex"
+path="res://.godot/imported/ani-adigyozalyan-2BjZ8q8paWw-unsplash.jpg-e43cadbad6ffe246c08bdacbc6416e19.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/ani-adigyozalyan-2BjZ8q8paWw-unsplash.jpg"
-dest_files=["res://.godot/imported/ani-adigyozalyan-2BjZ8q8paWw-unsplash.jpg-6e870539536d60028f1865ff1d097e03.ctex"]
+source_file="res://src/shared_assets/images/raw/ani-adigyozalyan-2BjZ8q8paWw-unsplash.jpg"
+dest_files=["res://.godot/imported/ani-adigyozalyan-2BjZ8q8paWw-unsplash.jpg-e43cadbad6ffe246c08bdacbc6416e19.ctex"]
 
 [params]
 

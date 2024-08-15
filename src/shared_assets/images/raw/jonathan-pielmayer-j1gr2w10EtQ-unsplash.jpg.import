@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdquw3adlvns7"
-path="res://.godot/imported/jonathan-pielmayer-j1gr2w10EtQ-unsplash.jpg-3165eb2be3bc32d7415412191572945b.ctex"
+path="res://.godot/imported/jonathan-pielmayer-j1gr2w10EtQ-unsplash.jpg-c05e58fb733cb3cefd734f8620116a51.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/jonathan-pielmayer-j1gr2w10EtQ-unsplash.jpg"
-dest_files=["res://.godot/imported/jonathan-pielmayer-j1gr2w10EtQ-unsplash.jpg-3165eb2be3bc32d7415412191572945b.ctex"]
+source_file="res://src/shared_assets/images/raw/jonathan-pielmayer-j1gr2w10EtQ-unsplash.jpg"
+dest_files=["res://.godot/imported/jonathan-pielmayer-j1gr2w10EtQ-unsplash.jpg-c05e58fb733cb3cefd734f8620116a51.ctex"]
 
 [params]
 

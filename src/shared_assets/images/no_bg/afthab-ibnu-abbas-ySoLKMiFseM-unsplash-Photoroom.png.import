@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3i2wtjkihfoy"
-path="res://.godot/imported/afthab-ibnu-abbas-ySoLKMiFseM-unsplash-Photoroom.png-ff0134e4ccde10e358f6a33334cbe8d2.ctex"
+path="res://.godot/imported/afthab-ibnu-abbas-ySoLKMiFseM-unsplash-Photoroom.png-1eb3bf7fcd214f74b2add081fe4d721b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/afthab-ibnu-abbas-ySoLKMiFseM-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/afthab-ibnu-abbas-ySoLKMiFseM-unsplash-Photoroom.png-ff0134e4ccde10e358f6a33334cbe8d2.ctex"]
+source_file="res://src/shared_assets/images/no_bg/afthab-ibnu-abbas-ySoLKMiFseM-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/afthab-ibnu-abbas-ySoLKMiFseM-unsplash-Photoroom.png-1eb3bf7fcd214f74b2add081fe4d721b.ctex"]
 
 [params]
 

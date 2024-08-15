@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp6yxftpeoqgj"
-path="res://.godot/imported/marcus-lewis-U63zXX2f7ho-unsplash.jpg-5e96fc05bfee863f5849ae701bf1c280.ctex"
+path="res://.godot/imported/marcus-lewis-U63zXX2f7ho-unsplash.jpg-64c9f79477b84e169f3edcd5c3355778.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/marcus-lewis-U63zXX2f7ho-unsplash.jpg"
-dest_files=["res://.godot/imported/marcus-lewis-U63zXX2f7ho-unsplash.jpg-5e96fc05bfee863f5849ae701bf1c280.ctex"]
+source_file="res://src/shared_assets/images/raw/marcus-lewis-U63zXX2f7ho-unsplash.jpg"
+dest_files=["res://.godot/imported/marcus-lewis-U63zXX2f7ho-unsplash.jpg-64c9f79477b84e169f3edcd5c3355778.ctex"]
 
 [params]
 

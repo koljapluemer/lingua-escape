@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bchhaegfqi5kl"
-path="res://.godot/imported/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg-3244d8b3b07d2e8b47b69d2ea819df87.ctex"
+path="res://.godot/imported/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg-39c11392388bb723286e90b228725aec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg"
-dest_files=["res://.godot/imported/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg-3244d8b3b07d2e8b47b69d2ea819df87.ctex"]
+source_file="res://src/shared_assets/images/raw/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg"
+dest_files=["res://.godot/imported/marcel-schreiber-iZI5qcR7f8s-unsplash.jpg-39c11392388bb723286e90b228725aec.ctex"]
 
 [params]
 

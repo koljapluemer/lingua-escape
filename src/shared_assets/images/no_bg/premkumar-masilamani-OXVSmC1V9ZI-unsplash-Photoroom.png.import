@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk84q2r0xadf4"
-path="res://.godot/imported/premkumar-masilamani-OXVSmC1V9ZI-unsplash-Photoroom.png-88bf927cfe0f33cbe88668fde180df0b.ctex"
+path="res://.godot/imported/premkumar-masilamani-OXVSmC1V9ZI-unsplash-Photoroom.png-67d48eb2fb03d9b5d39cfb3f2ca77367.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/premkumar-masilamani-OXVSmC1V9ZI-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/premkumar-masilamani-OXVSmC1V9ZI-unsplash-Photoroom.png-88bf927cfe0f33cbe88668fde180df0b.ctex"]
+source_file="res://src/shared_assets/images/no_bg/premkumar-masilamani-OXVSmC1V9ZI-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/premkumar-masilamani-OXVSmC1V9ZI-unsplash-Photoroom.png-67d48eb2fb03d9b5d39cfb3f2ca77367.ctex"]
 
 [params]
 

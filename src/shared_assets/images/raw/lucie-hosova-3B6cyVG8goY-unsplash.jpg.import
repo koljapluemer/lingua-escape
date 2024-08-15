@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnd5oly4sdd1f"
-path="res://.godot/imported/lucie-hosova-3B6cyVG8goY-unsplash.jpg-26cbe6346e710fb9095ef683617029e5.ctex"
+path="res://.godot/imported/lucie-hosova-3B6cyVG8goY-unsplash.jpg-263413fa737c6fe5f49cbfbfcb1e3a4e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/lucie-hosova-3B6cyVG8goY-unsplash.jpg"
-dest_files=["res://.godot/imported/lucie-hosova-3B6cyVG8goY-unsplash.jpg-26cbe6346e710fb9095ef683617029e5.ctex"]
+source_file="res://src/shared_assets/images/raw/lucie-hosova-3B6cyVG8goY-unsplash.jpg"
+dest_files=["res://.godot/imported/lucie-hosova-3B6cyVG8goY-unsplash.jpg-263413fa737c6fe5f49cbfbfcb1e3a4e.ctex"]
 
 [params]
 

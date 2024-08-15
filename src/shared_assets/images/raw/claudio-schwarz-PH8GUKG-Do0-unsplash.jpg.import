@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://didxxo1iebe6e"
-path="res://.godot/imported/claudio-schwarz-PH8GUKG-Do0-unsplash.jpg-c651f4229e0535b8e671fc05bc352a57.ctex"
+path="res://.godot/imported/claudio-schwarz-PH8GUKG-Do0-unsplash.jpg-30f0cf2eeaf829fc6b79b144d724a6f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/claudio-schwarz-PH8GUKG-Do0-unsplash.jpg"
-dest_files=["res://.godot/imported/claudio-schwarz-PH8GUKG-Do0-unsplash.jpg-c651f4229e0535b8e671fc05bc352a57.ctex"]
+source_file="res://src/shared_assets/images/raw/claudio-schwarz-PH8GUKG-Do0-unsplash.jpg"
+dest_files=["res://.godot/imported/claudio-schwarz-PH8GUKG-Do0-unsplash.jpg-30f0cf2eeaf829fc6b79b144d724a6f9.ctex"]
 
 [params]
 

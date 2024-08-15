@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsm4e7jfl4egp"
-path="res://.godot/imported/pineapple-supply-co-jIU6rQccJAU-unsplash.jpg-8cbebc082d151fc816a14d8ffc5365f4.ctex"
+path="res://.godot/imported/pineapple-supply-co-jIU6rQccJAU-unsplash.jpg-0b91797d739693e070713c3f3c0099ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/pineapple-supply-co-jIU6rQccJAU-unsplash.jpg"
-dest_files=["res://.godot/imported/pineapple-supply-co-jIU6rQccJAU-unsplash.jpg-8cbebc082d151fc816a14d8ffc5365f4.ctex"]
+source_file="res://src/shared_assets/images/raw/pineapple-supply-co-jIU6rQccJAU-unsplash.jpg"
+dest_files=["res://.godot/imported/pineapple-supply-co-jIU6rQccJAU-unsplash.jpg-0b91797d739693e070713c3f3c0099ef.ctex"]
 
 [params]
 

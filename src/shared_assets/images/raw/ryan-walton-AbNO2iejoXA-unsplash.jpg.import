@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xng168ulq6kw"
-path="res://.godot/imported/ryan-walton-AbNO2iejoXA-unsplash.jpg-bfa874df2527423cc297afe36818e19b.ctex"
+path="res://.godot/imported/ryan-walton-AbNO2iejoXA-unsplash.jpg-193d21a09e5b837f629b0f8a76367571.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/ryan-walton-AbNO2iejoXA-unsplash.jpg"
-dest_files=["res://.godot/imported/ryan-walton-AbNO2iejoXA-unsplash.jpg-bfa874df2527423cc297afe36818e19b.ctex"]
+source_file="res://src/shared_assets/images/raw/ryan-walton-AbNO2iejoXA-unsplash.jpg"
+dest_files=["res://.godot/imported/ryan-walton-AbNO2iejoXA-unsplash.jpg-193d21a09e5b837f629b0f8a76367571.ctex"]
 
 [params]
 

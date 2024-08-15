@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chk3u5nts5mq6"
-path="res://.godot/imported/max-andrey-A_D10XO24FE-unsplash.jpg-122cacd25da2192dc8bb15a26b7a4842.ctex"
+path="res://.godot/imported/max-andrey-A_D10XO24FE-unsplash.jpg-4ca309c02abb1d072c32654673ce1922.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/max-andrey-A_D10XO24FE-unsplash.jpg"
-dest_files=["res://.godot/imported/max-andrey-A_D10XO24FE-unsplash.jpg-122cacd25da2192dc8bb15a26b7a4842.ctex"]
+source_file="res://src/shared_assets/images/raw/max-andrey-A_D10XO24FE-unsplash.jpg"
+dest_files=["res://.godot/imported/max-andrey-A_D10XO24FE-unsplash.jpg-4ca309c02abb1d072c32654673ce1922.ctex"]
 
 [params]
 

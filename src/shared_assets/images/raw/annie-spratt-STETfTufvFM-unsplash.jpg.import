@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwwlxtyqrahce"
-path="res://.godot/imported/annie-spratt-STETfTufvFM-unsplash.jpg-8f777157447526ce94daa9143b38caa9.ctex"
+path="res://.godot/imported/annie-spratt-STETfTufvFM-unsplash.jpg-84aea23eb3b3552301b58de8cab9fb43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/annie-spratt-STETfTufvFM-unsplash.jpg"
-dest_files=["res://.godot/imported/annie-spratt-STETfTufvFM-unsplash.jpg-8f777157447526ce94daa9143b38caa9.ctex"]
+source_file="res://src/shared_assets/images/raw/annie-spratt-STETfTufvFM-unsplash.jpg"
+dest_files=["res://.godot/imported/annie-spratt-STETfTufvFM-unsplash.jpg-84aea23eb3b3552301b58de8cab9fb43.ctex"]
 
 [params]
 

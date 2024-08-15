@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btiuciattg48g"
-path="res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash-Photoroom.png-b9a4661d91eeabe5e5b1e6648d50ae3e.ctex"
+path="res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash-Photoroom.png-bc65aa4088583b6979cfd216c4481eed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/dovile-ramoskaite-iT4qcNMhYTQ-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash-Photoroom.png-b9a4661d91eeabe5e5b1e6648d50ae3e.ctex"]
+source_file="res://src/shared_assets/images/no_bg/dovile-ramoskaite-iT4qcNMhYTQ-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash-Photoroom.png-bc65aa4088583b6979cfd216c4481eed.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drmq12kvyn8ox"
-path="res://.godot/imported/odiseo-castrejon-xPPoMWL4r_A-unsplash-Photoroom-Photoroom.png-0dc53ba1ac682529a5cbf28a616927a1.ctex"
+path="res://.godot/imported/odiseo-castrejon-xPPoMWL4r_A-unsplash-Photoroom-Photoroom.png-d9eee62625c94e33fd9346d90db194be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/odiseo-castrejon-xPPoMWL4r_A-unsplash-Photoroom-Photoroom.png"
-dest_files=["res://.godot/imported/odiseo-castrejon-xPPoMWL4r_A-unsplash-Photoroom-Photoroom.png-0dc53ba1ac682529a5cbf28a616927a1.ctex"]
+source_file="res://src/shared_assets/images/no_bg/odiseo-castrejon-xPPoMWL4r_A-unsplash-Photoroom-Photoroom.png"
+dest_files=["res://.godot/imported/odiseo-castrejon-xPPoMWL4r_A-unsplash-Photoroom-Photoroom.png-d9eee62625c94e33fd9346d90db194be.ctex"]
 
 [params]
 

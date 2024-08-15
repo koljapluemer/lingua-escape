@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpbsw7x6ld4cl"
-path="res://.godot/imported/phil-hearing-IYfp2Ixe9nM-unsplash.jpg-13e2547718a76bbef0f60437b3a4bfe3.ctex"
+path="res://.godot/imported/phil-hearing-IYfp2Ixe9nM-unsplash.jpg-307ba1405ffb0aa8b591335e507927f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/phil-hearing-IYfp2Ixe9nM-unsplash.jpg"
-dest_files=["res://.godot/imported/phil-hearing-IYfp2Ixe9nM-unsplash.jpg-13e2547718a76bbef0f60437b3a4bfe3.ctex"]
+source_file="res://src/shared_assets/images/raw/phil-hearing-IYfp2Ixe9nM-unsplash.jpg"
+dest_files=["res://.godot/imported/phil-hearing-IYfp2Ixe9nM-unsplash.jpg-307ba1405ffb0aa8b591335e507927f4.ctex"]
 
 [params]
 

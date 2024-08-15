@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkjtftspo1yj4"
-path="res://.godot/imported/mariusz-slonski-T0ro5uYHAiw-unsplash-Photoroom.png-41a28408cd7bce35fb5c8757b3ae63a8.ctex"
+path="res://.godot/imported/mariusz-slonski-T0ro5uYHAiw-unsplash-Photoroom.png-dbd274527c6bb1b148a70f19900eb5c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/mariusz-slonski-T0ro5uYHAiw-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/mariusz-slonski-T0ro5uYHAiw-unsplash-Photoroom.png-41a28408cd7bce35fb5c8757b3ae63a8.ctex"]
+source_file="res://src/shared_assets/images/no_bg/mariusz-slonski-T0ro5uYHAiw-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/mariusz-slonski-T0ro5uYHAiw-unsplash-Photoroom.png-dbd274527c6bb1b148a70f19900eb5c6.ctex"]
 
 [params]
 

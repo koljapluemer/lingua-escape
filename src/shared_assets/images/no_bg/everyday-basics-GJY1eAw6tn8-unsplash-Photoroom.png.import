@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8jxv4xbphruc"
-path="res://.godot/imported/everyday-basics-GJY1eAw6tn8-unsplash-Photoroom.png-de8821561f5e6ea4aa87df3d8dbac5dd.ctex"
+path="res://.godot/imported/everyday-basics-GJY1eAw6tn8-unsplash-Photoroom.png-49ecf84f711b6e1940dc28618ed73b01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/everyday-basics-GJY1eAw6tn8-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/everyday-basics-GJY1eAw6tn8-unsplash-Photoroom.png-de8821561f5e6ea4aa87df3d8dbac5dd.ctex"]
+source_file="res://src/shared_assets/images/no_bg/everyday-basics-GJY1eAw6tn8-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/everyday-basics-GJY1eAw6tn8-unsplash-Photoroom.png-49ecf84f711b6e1940dc28618ed73b01.ctex"]
 
 [params]
 

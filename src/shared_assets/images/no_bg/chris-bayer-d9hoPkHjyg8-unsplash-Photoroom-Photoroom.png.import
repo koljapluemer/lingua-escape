@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcq3coygs2lt2"
-path="res://.godot/imported/chris-bayer-d9hoPkHjyg8-unsplash-Photoroom-Photoroom.png-59a545b83aa7a596c4a3cbc3d49e3c6a.ctex"
+path="res://.godot/imported/chris-bayer-d9hoPkHjyg8-unsplash-Photoroom-Photoroom.png-f389817b3ebd625cfbd84f3b5580d3d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/chris-bayer-d9hoPkHjyg8-unsplash-Photoroom-Photoroom.png"
-dest_files=["res://.godot/imported/chris-bayer-d9hoPkHjyg8-unsplash-Photoroom-Photoroom.png-59a545b83aa7a596c4a3cbc3d49e3c6a.ctex"]
+source_file="res://src/shared_assets/images/no_bg/chris-bayer-d9hoPkHjyg8-unsplash-Photoroom-Photoroom.png"
+dest_files=["res://.godot/imported/chris-bayer-d9hoPkHjyg8-unsplash-Photoroom-Photoroom.png-f389817b3ebd625cfbd84f3b5580d3d5.ctex"]
 
 [params]
 

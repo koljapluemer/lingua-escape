@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1iyvd3ghg5ag"
-path="res://.godot/imported/aaron-burden-PpOHJezOalU-unsplash-Photoroom.png-44708d4a1ec12a3f46354017be04628e.ctex"
+path="res://.godot/imported/aaron-burden-PpOHJezOalU-unsplash-Photoroom.png-6420c157025ad10fc4d9d393a0096121.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/aaron-burden-PpOHJezOalU-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/aaron-burden-PpOHJezOalU-unsplash-Photoroom.png-44708d4a1ec12a3f46354017be04628e.ctex"]
+source_file="res://src/shared_assets/images/no_bg/aaron-burden-PpOHJezOalU-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/aaron-burden-PpOHJezOalU-unsplash-Photoroom.png-6420c157025ad10fc4d9d393a0096121.ctex"]
 
 [params]
 

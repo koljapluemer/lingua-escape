@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds4a5h7sqsv4m"
-path="res://.godot/imported/evie-s-DSGP650z8rM-unsplash.jpg-be36c9d60490f4576d3c60209c485d2b.ctex"
+path="res://.godot/imported/evie-s-DSGP650z8rM-unsplash.jpg-703698c1ecc50c3e3a9f5b3d2243451e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/evie-s-DSGP650z8rM-unsplash.jpg"
-dest_files=["res://.godot/imported/evie-s-DSGP650z8rM-unsplash.jpg-be36c9d60490f4576d3c60209c485d2b.ctex"]
+source_file="res://src/shared_assets/images/raw/evie-s-DSGP650z8rM-unsplash.jpg"
+dest_files=["res://.godot/imported/evie-s-DSGP650z8rM-unsplash.jpg-703698c1ecc50c3e3a9f5b3d2243451e.ctex"]
 
 [params]
 

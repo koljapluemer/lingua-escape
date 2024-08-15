@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bxn4g0fdivmci"
-path="res://.godot/imported/shroom_demo.mp3-9568deb5e0b8739c61bddd06609f2766.mp3str"
+path="res://.godot/imported/shroom_demo.mp3-ca796c75bcbf831bb09106f0e165265f.mp3str"
 
 [deps]
 
-source_file="res://Art/Audio/shroom_demo.mp3"
-dest_files=["res://.godot/imported/shroom_demo.mp3-9568deb5e0b8739c61bddd06609f2766.mp3str"]
+source_file="res://src/shared_assets/lang/shroom_demo.mp3"
+dest_files=["res://.godot/imported/shroom_demo.mp3-ca796c75bcbf831bb09106f0e165265f.mp3str"]
 
 [params]
 

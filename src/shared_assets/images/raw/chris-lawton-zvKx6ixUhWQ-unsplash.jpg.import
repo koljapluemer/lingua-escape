@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c47yq1ddkkvd3"
-path="res://.godot/imported/chris-lawton-zvKx6ixUhWQ-unsplash.jpg-04bc5329fd418ff745ec5a545a9a3840.ctex"
+path="res://.godot/imported/chris-lawton-zvKx6ixUhWQ-unsplash.jpg-227e139371d336803bf27b5926341641.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/chris-lawton-zvKx6ixUhWQ-unsplash.jpg"
-dest_files=["res://.godot/imported/chris-lawton-zvKx6ixUhWQ-unsplash.jpg-04bc5329fd418ff745ec5a545a9a3840.ctex"]
+source_file="res://src/shared_assets/images/raw/chris-lawton-zvKx6ixUhWQ-unsplash.jpg"
+dest_files=["res://.godot/imported/chris-lawton-zvKx6ixUhWQ-unsplash.jpg-227e139371d336803bf27b5926341641.ctex"]
 
 [params]
 

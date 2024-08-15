@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dld7jscuq5r06"
-path="res://.godot/imported/oriento-NETsvF4sDRQ-unsplash-Photoroom.png-c40f42cdbace93b29dac674f5b51b21e.ctex"
+path="res://.godot/imported/oriento-NETsvF4sDRQ-unsplash-Photoroom.png-014e269ee9fdf6d98991b2d29d49d37c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/oriento-NETsvF4sDRQ-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/oriento-NETsvF4sDRQ-unsplash-Photoroom.png-c40f42cdbace93b29dac674f5b51b21e.ctex"]
+source_file="res://src/shared_assets/images/no_bg/oriento-NETsvF4sDRQ-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/oriento-NETsvF4sDRQ-unsplash-Photoroom.png-014e269ee9fdf6d98991b2d29d49d37c.ctex"]
 
 [params]
 

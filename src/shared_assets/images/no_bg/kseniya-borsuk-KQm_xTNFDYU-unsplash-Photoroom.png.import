@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1qubiemlxe4q"
-path="res://.godot/imported/kseniya-borsuk-KQm_xTNFDYU-unsplash-Photoroom.png-9874a92e80e240bcf208b958bab40f94.ctex"
+path="res://.godot/imported/kseniya-borsuk-KQm_xTNFDYU-unsplash-Photoroom.png-d99d3d09b5514a82bfca1f5d93b7a667.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/kseniya-borsuk-KQm_xTNFDYU-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/kseniya-borsuk-KQm_xTNFDYU-unsplash-Photoroom.png-9874a92e80e240bcf208b958bab40f94.ctex"]
+source_file="res://src/shared_assets/images/no_bg/kseniya-borsuk-KQm_xTNFDYU-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/kseniya-borsuk-KQm_xTNFDYU-unsplash-Photoroom.png-d99d3d09b5514a82bfca1f5d93b7a667.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djw7p8u63axxw"
-path="res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash.jpg-c4fe4f992dce8bb024a5f505628a4283.ctex"
+path="res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash.jpg-b9d64d60e66fd57fff7dc5877a1c84e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/timothy-dykes-NzFA2VhY5gg-unsplash.jpg"
-dest_files=["res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash.jpg-c4fe4f992dce8bb024a5f505628a4283.ctex"]
+source_file="res://src/shared_assets/images/raw/timothy-dykes-NzFA2VhY5gg-unsplash.jpg"
+dest_files=["res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash.jpg-b9d64d60e66fd57fff7dc5877a1c84e6.ctex"]
 
 [params]
 

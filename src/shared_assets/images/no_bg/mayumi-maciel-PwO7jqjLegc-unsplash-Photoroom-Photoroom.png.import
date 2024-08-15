@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coegyeh0kfjym"
-path="res://.godot/imported/mayumi-maciel-PwO7jqjLegc-unsplash-Photoroom-Photoroom.png-2c42be6ef7d74a33d771198e71368b4f.ctex"
+path="res://.godot/imported/mayumi-maciel-PwO7jqjLegc-unsplash-Photoroom-Photoroom.png-699cff11898ce9115fc9c5005f0bf715.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/mayumi-maciel-PwO7jqjLegc-unsplash-Photoroom-Photoroom.png"
-dest_files=["res://.godot/imported/mayumi-maciel-PwO7jqjLegc-unsplash-Photoroom-Photoroom.png-2c42be6ef7d74a33d771198e71368b4f.ctex"]
+source_file="res://src/shared_assets/images/no_bg/mayumi-maciel-PwO7jqjLegc-unsplash-Photoroom-Photoroom.png"
+dest_files=["res://.godot/imported/mayumi-maciel-PwO7jqjLegc-unsplash-Photoroom-Photoroom.png-699cff11898ce9115fc9c5005f0bf715.ctex"]
 
 [params]
 

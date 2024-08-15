@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cauig3ysxrq6p"
-path="res://.godot/imported/saffu-bmtg7lrCry4-unsplash.jpg-a1510b5cd9ea3e02521677ac377d5906.ctex"
+path="res://.godot/imported/saffu-bmtg7lrCry4-unsplash.jpg-050c4cae60ebcccc0a000fab4d9fae1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/saffu-bmtg7lrCry4-unsplash.jpg"
-dest_files=["res://.godot/imported/saffu-bmtg7lrCry4-unsplash.jpg-a1510b5cd9ea3e02521677ac377d5906.ctex"]
+source_file="res://src/shared_assets/images/raw/saffu-bmtg7lrCry4-unsplash.jpg"
+dest_files=["res://.godot/imported/saffu-bmtg7lrCry4-unsplash.jpg-050c4cae60ebcccc0a000fab4d9fae1d.ctex"]
 
 [params]
 

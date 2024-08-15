@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v38vvi4keldf"
-path="res://.godot/imported/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg-3fbf27bed8f8414b38488014ede82c9e.ctex"
+path="res://.godot/imported/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg-bf60bc03776aa7ee7dda3517e7b2544c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg"
-dest_files=["res://.godot/imported/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg-3fbf27bed8f8414b38488014ede82c9e.ctex"]
+source_file="res://src/shared_assets/images/raw/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg"
+dest_files=["res://.godot/imported/paul-zoetemeijer-ekBOf6sJYYo-unsplash.jpg-bf60bc03776aa7ee7dda3517e7b2544c.ctex"]
 
 [params]
 

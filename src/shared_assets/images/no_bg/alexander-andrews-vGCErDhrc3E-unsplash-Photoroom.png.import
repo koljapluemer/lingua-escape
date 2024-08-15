@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://x32cyp00vivb"
-path="res://.godot/imported/alexander-andrews-vGCErDhrc3E-unsplash-Photoroom.png-c9347f1c746d8741ac888e0b885c9478.ctex"
+path="res://.godot/imported/alexander-andrews-vGCErDhrc3E-unsplash-Photoroom.png-c570dcd7bd0cd2f3657c9d1f18afacf5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/alexander-andrews-vGCErDhrc3E-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/alexander-andrews-vGCErDhrc3E-unsplash-Photoroom.png-c9347f1c746d8741ac888e0b885c9478.ctex"]
+source_file="res://src/shared_assets/images/no_bg/alexander-andrews-vGCErDhrc3E-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/alexander-andrews-vGCErDhrc3E-unsplash-Photoroom.png-c570dcd7bd0cd2f3657c9d1f18afacf5.ctex"]
 
 [params]
 

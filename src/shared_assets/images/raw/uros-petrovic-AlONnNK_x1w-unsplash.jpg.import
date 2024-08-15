@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wnhmfqtk5im"
-path="res://.godot/imported/uros-petrovic-AlONnNK_x1w-unsplash.jpg-35dfe87f879eef5790c98fe3999195bd.ctex"
+path="res://.godot/imported/uros-petrovic-AlONnNK_x1w-unsplash.jpg-9f76cb8599a3b98be56899b86562d691.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/uros-petrovic-AlONnNK_x1w-unsplash.jpg"
-dest_files=["res://.godot/imported/uros-petrovic-AlONnNK_x1w-unsplash.jpg-35dfe87f879eef5790c98fe3999195bd.ctex"]
+source_file="res://src/shared_assets/images/raw/uros-petrovic-AlONnNK_x1w-unsplash.jpg"
+dest_files=["res://.godot/imported/uros-petrovic-AlONnNK_x1w-unsplash.jpg-9f76cb8599a3b98be56899b86562d691.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj5ftxu3vmwdg"
-path="res://.godot/imported/nathan-dumlao-y2j5vvhKFu0-unsplash.jpg-d15fd8de6bb1c1e0e432e53ba24667d2.ctex"
+path="res://.godot/imported/nathan-dumlao-y2j5vvhKFu0-unsplash.jpg-d62ae3ccba09607d9a2538426dcd8a55.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/nathan-dumlao-y2j5vvhKFu0-unsplash.jpg"
-dest_files=["res://.godot/imported/nathan-dumlao-y2j5vvhKFu0-unsplash.jpg-d15fd8de6bb1c1e0e432e53ba24667d2.ctex"]
+source_file="res://src/shared_assets/images/raw/nathan-dumlao-y2j5vvhKFu0-unsplash.jpg"
+dest_files=["res://.godot/imported/nathan-dumlao-y2j5vvhKFu0-unsplash.jpg-d62ae3ccba09607d9a2538426dcd8a55.ctex"]
 
 [params]
 

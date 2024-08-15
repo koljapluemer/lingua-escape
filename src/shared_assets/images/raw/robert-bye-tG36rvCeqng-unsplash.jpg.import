@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh5bcgj78gq7v"
-path="res://.godot/imported/robert-bye-tG36rvCeqng-unsplash.jpg-b6ade3a18af45c5cb50d70d9a3330174.ctex"
+path="res://.godot/imported/robert-bye-tG36rvCeqng-unsplash.jpg-e3f82b0034b42923dc966271219ecc3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/robert-bye-tG36rvCeqng-unsplash.jpg"
-dest_files=["res://.godot/imported/robert-bye-tG36rvCeqng-unsplash.jpg-b6ade3a18af45c5cb50d70d9a3330174.ctex"]
+source_file="res://src/shared_assets/images/raw/robert-bye-tG36rvCeqng-unsplash.jpg"
+dest_files=["res://.godot/imported/robert-bye-tG36rvCeqng-unsplash.jpg-e3f82b0034b42923dc966271219ecc3e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hrbf6k487dnl"
-path="res://.godot/imported/ronan-furuta-7p8cFwM0Y1s-unsplash.jpg-3add58f908280e1d3f7fb2b237bb2096.ctex"
+path="res://.godot/imported/ronan-furuta-7p8cFwM0Y1s-unsplash.jpg-62d31e43ca2abb85af5fbd27ef54a5b4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/ronan-furuta-7p8cFwM0Y1s-unsplash.jpg"
-dest_files=["res://.godot/imported/ronan-furuta-7p8cFwM0Y1s-unsplash.jpg-3add58f908280e1d3f7fb2b237bb2096.ctex"]
+source_file="res://src/shared_assets/images/raw/ronan-furuta-7p8cFwM0Y1s-unsplash.jpg"
+dest_files=["res://.godot/imported/ronan-furuta-7p8cFwM0Y1s-unsplash.jpg-62d31e43ca2abb85af5fbd27ef54a5b4.ctex"]
 
 [params]
 

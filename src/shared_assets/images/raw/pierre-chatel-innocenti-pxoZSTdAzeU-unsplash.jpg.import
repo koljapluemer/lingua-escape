@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmeogj6gias16"
-path="res://.godot/imported/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg-58772caac96878c6acddb134922b9969.ctex"
+path="res://.godot/imported/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg-e233a38c958ebd13a0d8046a208858e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg"
-dest_files=["res://.godot/imported/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg-58772caac96878c6acddb134922b9969.ctex"]
+source_file="res://src/shared_assets/images/raw/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg"
+dest_files=["res://.godot/imported/pierre-chatel-innocenti-pxoZSTdAzeU-unsplash.jpg-e233a38c958ebd13a0d8046a208858e4.ctex"]
 
 [params]
 

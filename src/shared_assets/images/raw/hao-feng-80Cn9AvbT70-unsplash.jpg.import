@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dt344qo32oghw"
-path="res://.godot/imported/hao-feng-80Cn9AvbT70-unsplash.jpg-7a6e9d6d781e7453a8384a7d8d96036d.ctex"
+path="res://.godot/imported/hao-feng-80Cn9AvbT70-unsplash.jpg-2708795b4316529c2f311800455729c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/hao-feng-80Cn9AvbT70-unsplash.jpg"
-dest_files=["res://.godot/imported/hao-feng-80Cn9AvbT70-unsplash.jpg-7a6e9d6d781e7453a8384a7d8d96036d.ctex"]
+source_file="res://src/shared_assets/images/raw/hao-feng-80Cn9AvbT70-unsplash.jpg"
+dest_files=["res://.godot/imported/hao-feng-80Cn9AvbT70-unsplash.jpg-2708795b4316529c2f311800455729c8.ctex"]
 
 [params]
 

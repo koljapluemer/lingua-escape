@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2q3uyjiw3h5g"
-path="res://.godot/imported/cj-botha-0k_QICzdzmw-unsplash-Photoroom.png-3447ee06eaaf31bf73e7dc80617cf57c.ctex"
+path="res://.godot/imported/cj-botha-0k_QICzdzmw-unsplash-Photoroom.png-3fb3758f7cd1868a51428fe94147619a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/cj-botha-0k_QICzdzmw-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/cj-botha-0k_QICzdzmw-unsplash-Photoroom.png-3447ee06eaaf31bf73e7dc80617cf57c.ctex"]
+source_file="res://src/shared_assets/images/no_bg/cj-botha-0k_QICzdzmw-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/cj-botha-0k_QICzdzmw-unsplash-Photoroom.png-3fb3758f7cd1868a51428fe94147619a.ctex"]
 
 [params]
 

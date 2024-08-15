@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bclj70vjolgrr"
-path="res://.godot/imported/bottles_demo.mp3-5069254da58612b709caa0d011c6161c.mp3str"
+path="res://.godot/imported/bottles_demo.mp3-40191b5f01cb7c7ff8e0f3a55d7fbdac.mp3str"
 
 [deps]
 
-source_file="res://Art/Audio/bottles_demo.mp3"
-dest_files=["res://.godot/imported/bottles_demo.mp3-5069254da58612b709caa0d011c6161c.mp3str"]
+source_file="res://src/shared_assets/lang/bottles_demo.mp3"
+dest_files=["res://.godot/imported/bottles_demo.mp3-40191b5f01cb7c7ff8e0f3a55d7fbdac.mp3str"]
 
 [params]
 

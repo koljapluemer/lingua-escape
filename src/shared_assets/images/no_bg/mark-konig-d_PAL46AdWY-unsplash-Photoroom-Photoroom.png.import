@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0gxqfonxuda5"
-path="res://.godot/imported/mark-konig-d_PAL46AdWY-unsplash-Photoroom-Photoroom.png-4fa75782a36a80d18ba76a0c8cb978bf.ctex"
+path="res://.godot/imported/mark-konig-d_PAL46AdWY-unsplash-Photoroom-Photoroom.png-1bb3a55e896c3f942930b85b7afd91b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/mark-konig-d_PAL46AdWY-unsplash-Photoroom-Photoroom.png"
-dest_files=["res://.godot/imported/mark-konig-d_PAL46AdWY-unsplash-Photoroom-Photoroom.png-4fa75782a36a80d18ba76a0c8cb978bf.ctex"]
+source_file="res://src/shared_assets/images/no_bg/mark-konig-d_PAL46AdWY-unsplash-Photoroom-Photoroom.png"
+dest_files=["res://.godot/imported/mark-konig-d_PAL46AdWY-unsplash-Photoroom-Photoroom.png-1bb3a55e896c3f942930b85b7afd91b6.ctex"]
 
 [params]
 

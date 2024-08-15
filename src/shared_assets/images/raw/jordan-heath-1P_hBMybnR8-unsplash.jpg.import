@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi3r8c838ibm0"
-path="res://.godot/imported/jordan-heath-1P_hBMybnR8-unsplash.jpg-351a1fefedd5241fa1523961dce3b456.ctex"
+path="res://.godot/imported/jordan-heath-1P_hBMybnR8-unsplash.jpg-7cc10dd31284d4a9d9a8cd02570a89ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/jordan-heath-1P_hBMybnR8-unsplash.jpg"
-dest_files=["res://.godot/imported/jordan-heath-1P_hBMybnR8-unsplash.jpg-351a1fefedd5241fa1523961dce3b456.ctex"]
+source_file="res://src/shared_assets/images/raw/jordan-heath-1P_hBMybnR8-unsplash.jpg"
+dest_files=["res://.godot/imported/jordan-heath-1P_hBMybnR8-unsplash.jpg-7cc10dd31284d4a9d9a8cd02570a89ff.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://bvp263upn45nm"
-path="res://.godot/imported/fingerplop.mp3-d229303ccce89710982984e19c7f7855.mp3str"
+path="res://.godot/imported/fingerplop.mp3-3855347610ea5d314566fcd9df1bc68f.mp3str"
 
 [deps]
 
-source_file="res://src/universal_assets/fingerplop.mp3"
-dest_files=["res://.godot/imported/fingerplop.mp3-d229303ccce89710982984e19c7f7855.mp3str"]
+source_file="res://src/shared_assets/fingerplop.mp3"
+dest_files=["res://.godot/imported/fingerplop.mp3-3855347610ea5d314566fcd9df1bc68f.mp3str"]
 
 [params]
 

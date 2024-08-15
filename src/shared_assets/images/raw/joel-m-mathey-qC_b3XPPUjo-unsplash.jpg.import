@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwu1hf1vl37m5"
-path="res://.godot/imported/joel-m-mathey-qC_b3XPPUjo-unsplash.jpg-f1cbb5adb515baae5f18953ab09440ae.ctex"
+path="res://.godot/imported/joel-m-mathey-qC_b3XPPUjo-unsplash.jpg-b0bf57675a3db12e2c4d3e9f041b3eb1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/joel-m-mathey-qC_b3XPPUjo-unsplash.jpg"
-dest_files=["res://.godot/imported/joel-m-mathey-qC_b3XPPUjo-unsplash.jpg-f1cbb5adb515baae5f18953ab09440ae.ctex"]
+source_file="res://src/shared_assets/images/raw/joel-m-mathey-qC_b3XPPUjo-unsplash.jpg"
+dest_files=["res://.godot/imported/joel-m-mathey-qC_b3XPPUjo-unsplash.jpg-b0bf57675a3db12e2c4d3e9f041b3eb1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btpsxoxkjslca"
-path="res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash-Photoroom.png-f81917956a257ab82ff37103d289416a.ctex"
+path="res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash-Photoroom.png-67c68d84d6b1e6fd8c8ec27ac353c95e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/timothy-dykes-NzFA2VhY5gg-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash-Photoroom.png-f81917956a257ab82ff37103d289416a.ctex"]
+source_file="res://src/shared_assets/images/no_bg/timothy-dykes-NzFA2VhY5gg-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/timothy-dykes-NzFA2VhY5gg-unsplash-Photoroom.png-67c68d84d6b1e6fd8c8ec27ac353c95e.ctex"]
 
 [params]
 

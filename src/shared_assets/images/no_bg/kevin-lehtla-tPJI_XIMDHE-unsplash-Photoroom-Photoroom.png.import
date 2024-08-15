@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6dotb4ake7c1"
-path="res://.godot/imported/kevin-lehtla-tPJI_XIMDHE-unsplash-Photoroom-Photoroom.png-2419f2c4c8dc30311af1c82e119a6449.ctex"
+path="res://.godot/imported/kevin-lehtla-tPJI_XIMDHE-unsplash-Photoroom-Photoroom.png-c2b88fd77a86b1124b8b1f2977886c43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/kevin-lehtla-tPJI_XIMDHE-unsplash-Photoroom-Photoroom.png"
-dest_files=["res://.godot/imported/kevin-lehtla-tPJI_XIMDHE-unsplash-Photoroom-Photoroom.png-2419f2c4c8dc30311af1c82e119a6449.ctex"]
+source_file="res://src/shared_assets/images/no_bg/kevin-lehtla-tPJI_XIMDHE-unsplash-Photoroom-Photoroom.png"
+dest_files=["res://.godot/imported/kevin-lehtla-tPJI_XIMDHE-unsplash-Photoroom-Photoroom.png-c2b88fd77a86b1124b8b1f2977886c43.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://is5ppywk3m5l"
-path="res://.godot/imported/jakub-pabis-7yRgWZ-RUIo-unsplash.jpg-44e6d554068d37838d926ade5b21981d.ctex"
+path="res://.godot/imported/jakub-pabis-7yRgWZ-RUIo-unsplash.jpg-b54db61f062d534a86a90832c19e234d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/jakub-pabis-7yRgWZ-RUIo-unsplash.jpg"
-dest_files=["res://.godot/imported/jakub-pabis-7yRgWZ-RUIo-unsplash.jpg-44e6d554068d37838d926ade5b21981d.ctex"]
+source_file="res://src/shared_assets/images/raw/jakub-pabis-7yRgWZ-RUIo-unsplash.jpg"
+dest_files=["res://.godot/imported/jakub-pabis-7yRgWZ-RUIo-unsplash.jpg-b54db61f062d534a86a90832c19e234d.ctex"]
 
 [params]
 

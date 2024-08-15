@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3lxw1na6qwcb"
-path="res://.godot/imported/mike-dorner-sf_1ZDA1YFw-unsplash.jpg-8369016ff75f22048a124bc8198d5b2f.ctex"
+path="res://.godot/imported/mike-dorner-sf_1ZDA1YFw-unsplash.jpg-4540194174c85b1d99dfdba309c827cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/mike-dorner-sf_1ZDA1YFw-unsplash.jpg"
-dest_files=["res://.godot/imported/mike-dorner-sf_1ZDA1YFw-unsplash.jpg-8369016ff75f22048a124bc8198d5b2f.ctex"]
+source_file="res://src/shared_assets/images/raw/mike-dorner-sf_1ZDA1YFw-unsplash.jpg"
+dest_files=["res://.godot/imported/mike-dorner-sf_1ZDA1YFw-unsplash.jpg-4540194174c85b1d99dfdba309c827cd.ctex"]
 
 [params]
 

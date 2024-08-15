@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://83dxq2cxwwio"
-path="res://.godot/imported/ross-parmly-IWZX30xASYQ-unsplash.jpg-f4a58ff94b86b9847a324f0b9c6f0db9.ctex"
+path="res://.godot/imported/ross-parmly-IWZX30xASYQ-unsplash.jpg-9324da85f972a33d81bc8d4f85025b5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/ross-parmly-IWZX30xASYQ-unsplash.jpg"
-dest_files=["res://.godot/imported/ross-parmly-IWZX30xASYQ-unsplash.jpg-f4a58ff94b86b9847a324f0b9c6f0db9.ctex"]
+source_file="res://src/shared_assets/images/raw/ross-parmly-IWZX30xASYQ-unsplash.jpg"
+dest_files=["res://.godot/imported/ross-parmly-IWZX30xASYQ-unsplash.jpg-9324da85f972a33d81bc8d4f85025b5b.ctex"]
 
 [params]
 

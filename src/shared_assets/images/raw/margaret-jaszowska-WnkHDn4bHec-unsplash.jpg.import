@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwwqu0ojj35sn"
-path="res://.godot/imported/margaret-jaszowska-WnkHDn4bHec-unsplash.jpg-f0210b4ceec938eef2b63fb553599fcd.ctex"
+path="res://.godot/imported/margaret-jaszowska-WnkHDn4bHec-unsplash.jpg-2a128c3b8a95052231928621dbf50f40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/margaret-jaszowska-WnkHDn4bHec-unsplash.jpg"
-dest_files=["res://.godot/imported/margaret-jaszowska-WnkHDn4bHec-unsplash.jpg-f0210b4ceec938eef2b63fb553599fcd.ctex"]
+source_file="res://src/shared_assets/images/raw/margaret-jaszowska-WnkHDn4bHec-unsplash.jpg"
+dest_files=["res://.godot/imported/margaret-jaszowska-WnkHDn4bHec-unsplash.jpg-2a128c3b8a95052231928621dbf50f40.ctex"]
 
 [params]
 

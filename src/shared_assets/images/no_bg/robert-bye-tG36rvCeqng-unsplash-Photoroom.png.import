@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://carx2dwlgatlm"
-path="res://.godot/imported/robert-bye-tG36rvCeqng-unsplash-Photoroom.png-617bc0f67186259b6eb7301766e143f7.ctex"
+path="res://.godot/imported/robert-bye-tG36rvCeqng-unsplash-Photoroom.png-9c7943cc83cd51ac3b9617febef2d947.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/robert-bye-tG36rvCeqng-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/robert-bye-tG36rvCeqng-unsplash-Photoroom.png-617bc0f67186259b6eb7301766e143f7.ctex"]
+source_file="res://src/shared_assets/images/no_bg/robert-bye-tG36rvCeqng-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/robert-bye-tG36rvCeqng-unsplash-Photoroom.png-9c7943cc83cd51ac3b9617febef2d947.ctex"]
 
 [params]
 

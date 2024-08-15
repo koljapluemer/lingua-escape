@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6nejj0kx2x3c"
-path="res://.godot/imported/robert-ruggiero-21DFyDvUbMc-unsplash-Photoroom.png-ead237d63b902b9c642e2027a91008f5.ctex"
+path="res://.godot/imported/robert-ruggiero-21DFyDvUbMc-unsplash-Photoroom.png-a498c1a2e4e40650ca9b861c51e678da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/robert-ruggiero-21DFyDvUbMc-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/robert-ruggiero-21DFyDvUbMc-unsplash-Photoroom.png-ead237d63b902b9c642e2027a91008f5.ctex"]
+source_file="res://src/shared_assets/images/no_bg/robert-ruggiero-21DFyDvUbMc-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/robert-ruggiero-21DFyDvUbMc-unsplash-Photoroom.png-a498c1a2e4e40650ca9b861c51e678da.ctex"]
 
 [params]
 

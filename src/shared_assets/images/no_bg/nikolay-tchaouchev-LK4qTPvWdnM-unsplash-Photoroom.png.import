@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0tb8e4m7n0c6"
-path="res://.godot/imported/nikolay-tchaouchev-LK4qTPvWdnM-unsplash-Photoroom.png-5658af892b8e2b99a47bad81b8750d52.ctex"
+path="res://.godot/imported/nikolay-tchaouchev-LK4qTPvWdnM-unsplash-Photoroom.png-efcdfc4ad119888a96d61c509e0ffa06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/no_bg/nikolay-tchaouchev-LK4qTPvWdnM-unsplash-Photoroom.png"
-dest_files=["res://.godot/imported/nikolay-tchaouchev-LK4qTPvWdnM-unsplash-Photoroom.png-5658af892b8e2b99a47bad81b8750d52.ctex"]
+source_file="res://src/shared_assets/images/no_bg/nikolay-tchaouchev-LK4qTPvWdnM-unsplash-Photoroom.png"
+dest_files=["res://.godot/imported/nikolay-tchaouchev-LK4qTPvWdnM-unsplash-Photoroom.png-efcdfc4ad119888a96d61c509e0ffa06.ctex"]
 
 [params]
 

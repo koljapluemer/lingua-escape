@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brugeaaifpqhb"
-path="res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg-fe5c582b94177e349c11799d048c6dc0.ctex"
+path="res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg-bb24be8a0754c1915025460885f1b167.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://src/universal_assets/images/raw/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg"
-dest_files=["res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg-fe5c582b94177e349c11799d048c6dc0.ctex"]
+source_file="res://src/shared_assets/images/raw/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg"
+dest_files=["res://.godot/imported/dovile-ramoskaite-iT4qcNMhYTQ-unsplash.jpg-bb24be8a0754c1915025460885f1b167.ctex"]
 
 [params]
 
